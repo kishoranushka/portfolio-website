@@ -1,5 +1,5 @@
 import React from "react";
-import myImg from "../assets/myimg2.png";
+import myImg from "../assets/myimgillustrator.jpg";
 const About = () => {
   return (
     <div className="lg:p-20 lg:px-80 px-10  mt-10 lg:mt-0">
