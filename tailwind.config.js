@@ -10,10 +10,10 @@ export default {
     pink: "#d20062",
     cherry: "#d6589f",
     purple: "#d895da",
-    glassgreen:"#7ca18f8f",
+    glassgreen: "#7ca18f8f",
     // "gray-dark": "#273444",
     blue: "#c4e4ff",
     // "gray-light": "#d3dce6",
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };

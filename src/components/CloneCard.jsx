@@ -8,7 +8,7 @@ const CloneCard = ({data}) => {
         <img
           src={data.image}
           alt="zomato homepage image"
-          className="rounded mb-4"
+          className="rounded mb-4 shadow"
         />
       </figure>
       <div className="card-body">
