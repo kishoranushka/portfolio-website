@@ -13,15 +13,15 @@ const Projects = () => {
     <>
       <div className="  mb-10 p-20 px-80">
         <h1 className="text-6xl mb-10 font-bold text-[#1f2937]">Projects!</h1>
-        {ProjectsData.map((ele) => (
-            <ProjectCard data={ele} />
+        {ProjectsData.map((ele, idx) => (
+          <ProjectCard key={idx} data={ele} />
         ))}
-       
+
         <div>
           <h1 className="text-6xl mb-10 font-bold text-[#1f2937]">Clone!</h1>
           <div className="flex justify-between">
-            {CloneCardData.map((ele) => (
-              <CloneCard data={ele} />
+            {CloneCardData.map((ele, idx) => (
+              <CloneCard key={idx} data={ele} />
             ))}
           </div>
         </div>

@@ -23,24 +23,24 @@ const Achievements = () => {
           </h1>
 
           <div className="flex mb-20 justify-around  w-full">
-            {AchievementDatarow1.map((ele) => (
-              <AcademicAchievements data={ele} />
+            {AchievementDatarow1.map((ele, idx) => (
+              <AcademicAchievements key={idx} data={ele} />
             ))}
           </div>
           <h1 className="text-6xl mb-10 px-3 font-bold text-[#1f2937]">
             Non-Academic Achievements!
           </h1>
           <div className="flex mb-20 justify-around ">
-            {NonAcaAchievement.map((ele) => (
-              <AcademicAchievements data={ele} />
+            {NonAcaAchievement.map((ele, idx) => (
+              <AcademicAchievements key={idx} data={ele} />
             ))}
           </div>
           <h1 className="text-6xl mb-10 px-3 font-bold text-[#1f2937]">
             Creative Achievements!
           </h1>
           <div className="flex  justify-around ">
-            {creativeAchievement.map((ele) => (
-              <AcademicAchievements data={ele} />
+            {creativeAchievement.map((ele,idx) => (
+              <AcademicAchievements key={idx}  data={ele} />
             ))}
           </div>
         </div>
