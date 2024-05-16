@@ -8,7 +8,11 @@ const Footer = () => {
     <>
       <div className="bg-[#7ca18f] relative dark:bg-[#a1cfb8] dark:text-gray-100 mt-60">
         <div className="bg-white  z-10  ">
-          <img src={waves} alt="" className=" absolute bottom-72" />
+          <img
+            src={waves}
+            alt=""
+            className=" absolute lg:bottom-72 bottom-96 md:bottom-80"
+          />
         </div>
         <div className="container mx-auto px-4 py-16 lg:px-8 lg:py-16 xl:max-w-7xl">
           <div className="relative ">

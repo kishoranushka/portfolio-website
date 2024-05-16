@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const ProjectCard = ({ data }) => {
   return (
       <div>
-          <div className="card p-6 lg:flex gap-10 mb-20  border-black rounded-xl lg:card-side bg-base-100 shadow-xl">
-          <img src={data.image} alt="Album" className="w-1/2 rounded " />
+          <div className="card p-6 md:flex gap-10 mb-20  border-black rounded-xl lg:card-side bg-base-100 shadow-xl">
+          <img src={data.image} alt="Album" className="lg:w-1/2 rounded " />
 
           <div className="card-body ">
                   <p className="text-blue-800 font-semibold mb-2">{ data.category}</p>

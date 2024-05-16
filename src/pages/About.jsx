@@ -1,13 +1,13 @@
 import React from "react";
-import myImg from "../assets/myimgillustrator.jpg";
+import myImg from "../assets/aboutimg.png";
 const About = () => {
   return (
-    <div className="lg:p-20 lg:px-80 px-10  mt-10 lg:mt-0">
-      <p className="text-center text-6xl font-bold text-[#1f2937] mb-20 underline">
+    <div className="lg:p-20 p-8  lg:px-80 px-10 md:px-16 mt-10 lg:mt-0">
+      <p className="text-center  lg:text-6xl text-4xl font-bold text-[#1f2937] mb-20 underline">
         About Me!
       </p>
-      <div className="lg:flex gap-x-14 ">
-        <div className="lg:w-1/2 ">
+      <div className="lg:flex gap-x-14  ">
+        <div className="lg:w-1/2   ">
           <img src={myImg} alt="" />
         </div>
         <p className="lg:w-1/2 text-xl text-justify mt-14 lg:mt-0 ">

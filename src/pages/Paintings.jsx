@@ -14,34 +14,34 @@ import { Link } from 'react-router-dom';
 const Paintings = () => {
   // customjs()
   return (
-    <div className="  mb-10 p-20 px-80 ">
-      <div>
-        <h1 className="text-6xl mb-10 font-bold text-[#1f2937]">Paintings!</h1>
-        <div className="flex gap-10 justify-between">
+    <div className="  mb-10 md:p-16 p-8 lg:px-80 ">
+      <div className="">
+        <h1 className="md:text-6xl text-4xl mb-10 font-bold text-[#1f2937]">
+          Paintings!
+        </h1>
+        <div className="md:flex  gap-10 justify-between">
           {paintingdatarow1.map((ele, idx) => (
             <PaintingCard key={idx} data={ele} />
           ))}
         </div>
-        <div className="flex gap-10 mb-10  justify-between">
-          {paintingdatarow2.map((ele,idx) => (
+        <div className="md:flex gap-10 mb-10  justify-between">
+          {paintingdatarow2.map((ele, idx) => (
             <PaintingCard key={idx} data={ele} />
           ))}
         </div>
-        <h1 className="text-6xl mb-10 font-bold text-[#1f2937]">
+        <h1 className="md:text-6xl text-4xl mb-10 font-bold text-[#1f2937]">
           Wall Paintings!
         </h1>
 
-        <div className="flex gap-10  justify-between">
-          {paintingdatarow3.map((ele,idx) => (
+        <div className="md:flex gap-10  justify-between">
+          {paintingdatarow3.map((ele, idx) => (
             <PaintingCard key={idx} data={ele} />
           ))}
         </div>
 
         <div className=" flex justify-center mt-20  ">
-          <button className="btn  bg-[#7ca18f] p-3 lg:px-32 rounded text-white hover:bg-gray-700 font-bold">
-           
-              See More...
-           
+          <button className="btn  bg-[#7ca18f] p-3 md:px-32 px:10 rounded text-white hover:bg-gray-700 font-bold">
+            See More...
           </button>
         </div>
       </div>

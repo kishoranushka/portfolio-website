@@ -16,31 +16,31 @@ import exhibitionimg from "../assets/CAexhibition.jpg";
 const Achievements = () => {
   return (
     <>
-      <div className="content  px-80 py-20">
+      <div className="content  lg:px-80 p-8 md:p-16 md:py-20">
         <div className="photos   ">
-          <h1 className="text-6xl mb-10 px-3 font-bold text-[#1f2937]">
+          <h1 className="lg:text-6xl text-center md:text-left text-4xl md:mb-10 mb-5 px-3 font-bold text-[#1f2937]">
             Academic Achievements!
           </h1>
 
-          <div className="flex mb-20 justify-around  w-full">
+          <div className="md:flex  mb-20 justify-around  w-full">
             {AchievementDatarow1.map((ele, idx) => (
               <AcademicAchievements key={idx} data={ele} />
             ))}
           </div>
-          <h1 className="text-6xl mb-10 px-3 font-bold text-[#1f2937]">
+          <h1 className="lg:text-6xl text-4xl text-center md:text-left mb-10 px-3 font-bold text-[#1f2937]">
             Non-Academic Achievements!
           </h1>
-          <div className="flex mb-20 justify-around ">
+          <div className="md:flex mb-20 justify-around ">
             {NonAcaAchievement.map((ele, idx) => (
               <AcademicAchievements key={idx} data={ele} />
             ))}
           </div>
-          <h1 className="text-6xl mb-10 px-3 font-bold text-[#1f2937]">
+          <h1 className="lg:text-6xl text-center md:text-left text-4xl mb-10 px-3 font-bold text-[#1f2937]">
             Creative Achievements!
           </h1>
-          <div className="flex  justify-around ">
-            {creativeAchievement.map((ele,idx) => (
-              <AcademicAchievements key={idx}  data={ele} />
+          <div className="md:flex  justify-around ">
+            {creativeAchievement.map((ele, idx) => (
+              <AcademicAchievements key={idx} data={ele} />
             ))}
           </div>
         </div>

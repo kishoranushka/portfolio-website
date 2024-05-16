@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom'
 
 const CloneCard = ({data}) => {
   return (
-    <div className="card w-96 glass rounded-xl overflow-hidden p-6  shadow-xl">
+    <div className="card bg-pink-300 lg:w-96 lg:mb-16 mt-16  glass  sm:flex rounded-xl overflow-hidden p-6  shadow-xl">
       <figure>
         <img
           src={data.image}
           alt="zomato homepage image"
-          className="rounded mb-4 shadow"
+          className="rounded md:mb-4 shadow"
         />
       </figure>
-      <div className="card-body">
+      <div className="card-body  ">
         <p className="text-blue-800 font-semibold mb-2">{data.category}</p>
         <h2 className="card-title text-xl font-bold mb-2">{data.title}</h2>
         <p className="mb-4">
