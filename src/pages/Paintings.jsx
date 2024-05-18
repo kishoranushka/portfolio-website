@@ -40,8 +40,10 @@ const Paintings = () => {
         </div>
 
         <div className=" flex justify-center mt-20  ">
-          <button className="btn  bg-[#7ca18f] p-3 md:px-32 px:10 rounded text-white hover:bg-gray-700 font-bold">
-            See More...
+          <button className="btn  bg-[#b8878b] p-3 md:px-32 px:10 rounded text-white hover:bg-gray-700 font-bold">
+            <Link to="https://www.instagram.com/art__insight__9">
+              See More...
+            </Link>
           </button>
         </div>
       </div>

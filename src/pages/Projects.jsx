@@ -11,7 +11,7 @@ import CloneCard from "../components/CloneCard";
 const Projects = () => {
   return (
     <>
-      <div className="   md:p-16  p-8 pb-0 md:pb-0 lg:px-80">
+      <div className="   md:p-16   p-8 pb-0 md:pb-0 lg:px-80">
         <div className=" w-full">
           <h1 className="lg:text-6xl text-center lg:text-left text-4xl mb-10 font-bold text-[#1f2937]">
             Projects!

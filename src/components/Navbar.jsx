@@ -32,7 +32,7 @@ export default () => {
           : ""
       }`}
     >
-      <div className="gap-x-14 items-center max-w-screen-xl w-full mt-6  mx-auto px-4 md:flex md:px-0">
+      <div className="gap-x-14 items-center  max-w-screen-xl w-full mt-6  mx-auto px-4 md:flex md:px-0">
         <div className="flex items-center  justify-between py-5 md:block">
           <Link to="/">
             <p className="text-2xl font-bold text-[#1f2937]">Anushka Kishor</p>

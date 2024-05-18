@@ -2,7 +2,7 @@ import React from "react";
 import myImg from "../assets/aboutimg.png";
 const About = () => {
   return (
-    <div className="lg:p-20 p-8  lg:px-80 px-10 md:px-16 mt-10 lg:mt-0">
+    <div className="lg:p-20 p-8 lg:px-80 px-10 md:px-16 mt-10 lg:mt-0">
       <p className="text-center  lg:text-6xl text-4xl font-bold text-[#1f2937] mb-20 underline">
         About Me!
       </p>

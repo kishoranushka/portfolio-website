@@ -2,34 +2,25 @@ import { useEffect, useState } from "react";
 import DesignerImage from "../assets/myimg.png";
 import blobImg from "../assets/blob.svg";
 import { Link } from "react-router-dom";
+import homeimg from "../assets/homepage.png"
 
 const Home=() => {
 
   return (
-    <div className="relative md:w-full ">
-      <div
-        className="absolute inset-0 blur-xl h-[580px] "
-        style={{
-          background:
-            "linear-gradient(143.6deg, rgba(192, 132, 252, 0) 20.79%, rgba(232, 121, 249, 0.26) 40.92%, rgba(204, 171, 238, 0) 70.35%)",
-        }}
-      ></div>
-      <div className="relative w-full ">
-        <section className="w-full ">
-          <div className="max-w-screen-xl mx-auto px-4 py-12 gap-12 text-gray-600 overflow-hidden md:px-8 justify-between w-full  md:flex ">
+    <div className="relative md:w-full   lg:p-20 p-8 lg:py-10  lg:px-80 pb-0 md:px-16 mt-10 lg:mt-0 ">
+      <div className="relative w-full   ">
+        <section className="w-full   ">
+          <div className="    ">
+            {/* Replace with your image */}
+
+            <img src={homeimg} alt="Designer" className="" />
+          </div>
+          <div className="max-w-screen-xl mx-auto  py-12  gap-12 text-gray-600 overflow-hidden  justify-between w-full  md:flex ">
             <div className="flex-none space-y-5 max-w-xl">
-              <h1 className="text-4xl text-gray-800 font-extrabold sm:text-5xl md:text-7xl">
-                <span className="text-[#7ca18f]">Hye,</span> I am Anushka{" "}
-                <span className="text-[#7ca18f]">Kishor</span>
-              </h1>
-              <p className="md:text-xl">
-                A motivated individual creating space for herself in this
-                competitive field.
-              </p>
-              <div className="flex items-center gap-x-3 sm:text-sm">
+              <div className="flex items-center gap-x-3 sm:text-lg">
                 <Link
-                  to="/resume"
-                  className="flex items-center justify-center gap-x-1 py-2 px-4 text-white font-medium bg-[#7ca18f] duration-150 hover:bg-gray-700 active:bg-gray-900 rounded-[4px] md:inline-flex"
+                  to="https://drive.google.com/file/d/1uq8TmZ69uCkrbYfkN6GrNDlU5wxlDqf5/view?usp=sharing"
+                  className="flex items-center justify-center gap-x-1 py-2 px-4 lg:px-10 text-white font-medium bg-[#b8878b] duration-150 hover:bg-gray-700 active:bg-gray-900 rounded-[4px] md:inline-flex"
                 >
                   Resume
                   <svg
@@ -64,19 +55,6 @@ const Home=() => {
                   </svg>
                 </Link>
               </div>
-            </div>
-            <div className="flex-1  hidden md:block w-full h-auto">
-              {/* Replace with your image */}
-              <img
-                src={blobImg}
-                alt="backgrond svg"
-                className="md:min-w-full md:min-h-full "
-              />
-              <img
-                src={DesignerImage}
-                alt="Designer"
-                className="max-w-xl absolute top-2 w-[1200px]"
-              />
             </div>
           </div>
         </section>
