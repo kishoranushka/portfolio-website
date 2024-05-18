@@ -12,16 +12,9 @@
 
 
 
-.content {
-  width: 100%;
-}
 
-.photos {
-  width: 100%;
-  margin: 0 auto 20px;
-  /* display: flex; */
-  justify-content: center;
-}
+
+
 
 .thumbnails {
   
@@ -34,7 +27,7 @@
 }
 
 .thumbnails img {
-  width: 100%;
+  /* width: 100%; */
   object-fit: cover;
   object-position: 50% 20%;
 }

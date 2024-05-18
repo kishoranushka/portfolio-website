@@ -16,7 +16,7 @@ import exhibitionimg from "../assets/CAexhibition.jpg";
 const Achievements = () => {
   return (
     <>
-      <div className="content  lg:px-80 p-8 md:p-16 md:py-20">
+      <div className="content  lg:px-80 p-8  md:p-16 md:py-20">
         <div className="photos   ">
           <h1 className="lg:text-6xl text-center md:text-left text-4xl md:mb-10 mb-5 px-3 font-bold text-[#1f2937]">
             Academic Achievements!
@@ -55,19 +55,23 @@ const AchievementDatarow1 = [
   {
     title: "Branch Topper",
     image: topperimg,
+    alt: "topper image",
   },
 
   {
     title: "GDSC Lead",
     image: leadposter,
+    alt: "GDSC lead image",
   },
   {
     title: "Topper Award",
     image: awardimg,
+    alt: "Award image",
   },
   {
     title: "Project Competition ",
     image: projectimg,
+    alt: "project competition winner",
   },
 ];
 
@@ -75,37 +79,45 @@ const NonAcaAchievement = [
   {
     title: "GCCP Session",
     image: sessionimg1,
+    alt: "GCCP session",
   },
 
   {
     title: "CP Session",
     image: sessionimg2,
+    alt: "CP session",
   },
   {
     title: "H&S Session",
     image: sessionimg3,
+    alt: "H&S session",
   },
   {
     title: "GDSC Info Session",
     image: sessionimg4,
+    alt: "Info session",
   },
 ];
 const creativeAchievement = [
   {
     title: "Poster Making",
     image: Posterimg,
+    alt: "poster making runner-up",
   },
   {
     title: "Face Painting",
     image: facepaintingimg,
+    alt: "face painting winner",
   },
 
   {
     title: "Face Painting",
     image: facepaintingimg2,
+    alt: "face painting runner-up",
   },
   {
     title: "Painting Exhibition",
     image: exhibitionimg,
+    alt: "painitng exhibition img",
   },
 ];
