@@ -6,12 +6,12 @@ import footerimg from "../assets/myimg.png";
 const Footer = () => {
   return (
     <>
-      <div className="bg-[#b8878b] relative dark:bg-[#ffbbc0] dark:text-gray-100 mt-20 lg:mt-80">
+      <div className="bg-[#b8878b] relative  dark:text-gray-100 mt-20 lg:mt-80">
         <div className="bg-white  z-10  ">
           <img
             src={waves}
             alt=""
-            className=" absolute  lg:bottom-72 bottom-96 md:bottom-80"
+            className=" absolute  lg:bottom-72 bottom-[390px] md:bottom-80"
           />
         </div>
         <div className="container mx-auto px-4 py-16 lg:px-8 lg:py-16 xl:max-w-7xl">

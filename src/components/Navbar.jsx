@@ -26,14 +26,10 @@ export default () => {
 
   return (
     <nav
-      className={`bg-white pb-5   md:text-sm ${
-        state
-          ? "shadow-lg rounded-xl border mx-2 mt-2 md:shadow-none md:border-none md:mx-2 md:mt-0"
-          : ""
-      }`}
+      className="bg-white pb-5 flex w-full  md:text-sm "
     >
-      <div className="gap-x-14 items-center  max-w-screen-xl w-full mt-6  mx-auto px-4 md:flex md:px-0">
-        <div className="flex items-center  justify-between py-5 md:block">
+      <div className="gap-x-14 items-center   w-full     md:flex lg:px-80 md:px-16">
+        <div className="flex items-center   justify-between py-5 md:block">
           <Link to="/">
             <p className="text-2xl font-bold text-[#1f2937]">Anushka Kishor</p>
           </Link>
@@ -75,11 +71,11 @@ export default () => {
           </div>
         </div>
         <div
-          className={`flex-1 items-center justify-between   mt-8 md:mt-0 md:flex ${
+          className={`flex-1 items-center justify-between  h-full   mt-8 md:mt-0 md:flex ${
             state ? "block" : "hidden"
           } `}
         >
-          <ul className="justify-center  items-center space-y-6 md:flex md:space-x-6 md:space-y-0">
+          <ul className="justify-center  pr-4 lg:pr-0 items-center space-y-6 md:flex md:space-x-6 sm:space-x-2 md:space-y-0">
             {navigation.map((item, idx) => {
               return (
                 <li
