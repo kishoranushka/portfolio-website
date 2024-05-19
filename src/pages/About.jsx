@@ -20,8 +20,8 @@ const About = () => {
         </div>
         <div className="w-full md:w-1/2">
           <p className="text-justify">
-            <span className="text-yellow-500 font-bold text-2xl">
-              Greetings, 
+            <span className="text-[#b8878b] font-bold text-2xl">
+              Greetings,
             </span>{" "}
             <br />
             I'm Anushka Kishor, hailing from the culturally rich state renowned
