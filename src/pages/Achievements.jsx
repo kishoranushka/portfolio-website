@@ -16,7 +16,7 @@ import exhibitionimg from "../assets/CAexhibition.jpg";
 const Achievements = () => {
   return (
     <>
-      <div className="content  lg:px-80 p-8  md:p-16 md:py-20">
+      <div className="content  lg:px-60 xl:px-80 p-8  md:p-16 md:py-20">
         <div className="photos   ">
           <h1 className="lg:text-6xl text-center md:text-left text-4xl md:mb-10 mb-5 px-3 font-bold text-[#1f2937]">
             Academic Achievements!

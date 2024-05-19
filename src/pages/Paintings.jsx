@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
 const Paintings = () => {
   // customjs()
   return (
-    <div className="  mb-10 md:p-16 p-8 lg:px-80 ">
+    <div className="  mb-10 md:p-16 p-8 lg:px-60 xl:px-80 ">
       <div className="">
         <h1 className="md:text-6xl text-4xl mb-10 font-bold text-[#1f2937]">
           Paintings!

@@ -13,17 +13,19 @@ import About from "./pages/About";
 const App = () => {
   return (
     <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/achievements" element={<Achievements />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/paintings" element={<Paintings />} />
-        <Route path="/resume" element={<Resume />} />
-      </Routes>
-      <Footer />
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route  index element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="achievements" element={<Achievements />} />
+            <Route path="projects" element={<Projects />} />
+            <Route path="paintings" element={<Paintings />} />
+            <Route path="resume" element={<Resume />} />
+          </Route>
+        </Routes>
+        <Footer />
     </BrowserRouter>
   );
 };

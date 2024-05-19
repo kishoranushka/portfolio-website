@@ -8,7 +8,7 @@ import homeimg from "../assets/homepage.png"
 const Home=() => {
 
   return (
-    <div className="relative md:w-full   lg:p-20 p-8 lg:py-10  lg:px-80 pb-0 md:px-16  lg:mt-0 ">
+    <div className="relative md:w-full   lg:p-20 p-8 lg:py-10  lg:px-60 xl:px-80 pb-0 md:px-16  lg:mt-0 ">
       <div className="relative w-full   ">
         <section className="w-full   ">
           <div className="    ">

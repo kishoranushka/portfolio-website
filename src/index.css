@@ -122,3 +122,9 @@
     transition: 0.2s;
     filter: grayscale(0);
   } 
+
+  @media (max-width: 1500px) {
+  .flex-col-on-small {
+    flex-direction: column !important;
+  }
+}

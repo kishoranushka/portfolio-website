@@ -25,11 +25,9 @@ export default () => {
   }, []);
 
   return (
-    <nav
-      className="bg-white pb-5 flex w-full  md:text-sm "
-    >
-      <div className="gap-x-14 items-center   w-full  px-8   md:flex lg:px-80 md:px-16">
-        <div className="flex items-center   justify-between py-5 md:block">
+    <nav className="  flex w-full lg:px-60 xl:px-80 md:px-16 py-7 bg-yellow-300 md:text-sm ">
+      <div className="gap-x-14 items-center bg-pink-200  w-full h-full  md:flex ">
+        <div className="flex items-center bg-red-400  justify-between  md:block">
           <Link to="/">
             <p className="text-2xl font-bold text-[#1f2937]">Anushka Kishor</p>
           </Link>
@@ -90,7 +88,7 @@ export default () => {
             })}
           </ul>
           <div className=" md:flex  gap-5  w-full h-full hidden justify-end items-center   ">
-            <div className="lg:w-7 lg:h-7 w-5 h-5 ">
+            <div className="xl:w-7 xl:h-7 w-5 h-5 ">
               <div className="w-full  h-full">
                 <Link to="https://www.linkedin.com/in/kishoranushka/">
                   {" "}
@@ -106,7 +104,7 @@ export default () => {
                 </Link>
               </div>
             </div>
-            <div className="lg:w-7 lg:h-7 w-5 h-5   ">
+            <div className="xl:w-7 xl:h-7 w-4 h-4   ">
               <div className="w-full  h-full">
                 <Link to="https://x.com/Anushka30131">
                   {" "}
