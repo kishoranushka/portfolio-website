@@ -28,14 +28,14 @@ export default () => {
     <nav
       className="bg-white pb-5 flex w-full  md:text-sm "
     >
-      <div className="gap-x-14 items-center   w-full     md:flex lg:px-80 md:px-16">
+      <div className="gap-x-14 items-center   w-full  px-8   md:flex lg:px-80 md:px-16">
         <div className="flex items-center   justify-between py-5 md:block">
           <Link to="/">
             <p className="text-2xl font-bold text-[#1f2937]">Anushka Kishor</p>
           </Link>
-          <div className="md:hidden">
+          <div className="md:hidden ">
             <button
-              className="menu-btn text-gray-500 hover:text-gray-800"
+              className="menu-btn text-gray-500  hover:text-gray-800"
               onClick={() => setState(!state)}
             >
               {state ? (
@@ -71,7 +71,7 @@ export default () => {
           </div>
         </div>
         <div
-          className={`flex-1 items-center justify-between  h-full   mt-8 md:mt-0 md:flex ${
+          className={`flex-1 items-center justify-between  h-full  z-99 mt-8 md:mt-0 md:flex ${
             state ? "block" : "hidden"
           } `}
         >
