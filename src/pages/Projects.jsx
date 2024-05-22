@@ -11,9 +11,9 @@ import CloneCard from "../components/CloneCard";
 const Projects = () => {
   return (
     <>
-      <div className="   md:p-16   p-8 pb-0 md:pb-0 lg:px-60 xl:px-80">
+      <div className="   md:p-16 dark:bg-gray-900 pb-5 lg:p-8  md:pb-0 lg:px-60 xl:px-80">
         <div className=" w-full">
-          <h1 className="lg:text-6xl text-center lg:text-left text-4xl mb-10 font-bold text-[#1f2937]">
+          <h1 className="lg:text-6xl text-center dark:text-white lg:text-left text-4xl mb-10 font-bold text-[#1f2937]">
             Projects!
           </h1>
           {ProjectsData.map((ele, idx) => (
@@ -22,7 +22,7 @@ const Projects = () => {
         </div>
 
         <div>
-          <h1 className="lg:text-6xl text-center lg:text-left text-4xl mb-10 font-bold text-[#1f2937]">
+          <h1 className="lg:text-6xl text-center lg:text-left text-4xl mb-10 font-bold text-[#1f2937] dark:text-white">
             Clone!
           </h1>
           <div className="lg:flex   justify-between">

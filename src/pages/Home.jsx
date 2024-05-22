@@ -2,13 +2,11 @@ import { useEffect, useState } from "react";
 import DesignerImage from "../assets/myimg.png";
 import blobImg from "../assets/blob.svg";
 import { Link } from "react-router-dom";
-import homeimg from "../assets/homepage.png"
+import homeimg from "../assets/homepage.png";
 
-
-const Home=() => {
-
+const Home = () => {
   return (
-    <div className="relative md:w-full   lg:p-20 p-8 lg:py-10  lg:px-60 xl:px-80 pb-0 md:px-16  lg:mt-0 ">
+    <div className="relative md:w-full dark:bg-gray-900  lg:p-20 p-8 lg:py-10  lg:px-60 xl:px-80 pb-0 md:px-16  lg:mt-0 ">
       <div className="relative w-full   ">
         <section className="w-full   ">
           <div className="    ">
@@ -39,7 +37,7 @@ const Home=() => {
                 </Link>
                 <Link
                   to="/about"
-                  className="flex items-center justify-center gap-x-1 py-2 px-4 text-gray-700 hover:text-gray-900 font-medium duration-150 md:inline-flex"
+                  className="flex items-center justify-center dark:text-white gap-x-1 py-2 px-4 text-gray-700 hover:text-blue-900 dark:hover:text-yellow-200 font-medium duration-150 md:inline-flex"
                 >
                   Know more about me
                   <svg
@@ -64,4 +62,4 @@ const Home=() => {
   );
 };
 
-export default Home
+export default Home;

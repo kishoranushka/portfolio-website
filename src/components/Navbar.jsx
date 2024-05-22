@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import linkedinlogo from "../assets/linkedin.png";
 import youtubelogo from "../assets/youtube.png";
 import twitterlogo from "../assets/x.png";
-import githublogo from "../assets/github.png"
+import githublogo from "../assets/github.png";
 import Toggle from "./Toggle";
 
 export default () => {
@@ -26,11 +26,13 @@ export default () => {
   }, []);
 
   return (
-    <nav className="  flex w-full lg:px-60 xl:px-80 md:px-16 py-7 px-8  md:text-sm ">
+    <nav className="  flex w-full lg:px-60 dark:bg-gray-900  xl:px-80 md:px-16 py-7 px-8  md:text-sm ">
       <div className="gap-x-14 items-center   w-full h-full  md:flex ">
         <div className="flex items-center   justify-between  md:block">
           <Link to="/">
-            <p className="text-3xl font-bold text-[#1f2937]">Anushka Kishor</p>
+            <p className="text-3xl font-bold dark:text-white text-[#1f2937]">
+              Anushka Kishor
+            </p>
           </Link>
           <div className="md:hidden ">
             <button
@@ -73,13 +75,13 @@ export default () => {
           className={`flex-1 items-center justify-between h-full   mt-8 md:mt-0 md:flex ${
             state ? "block" : "hidden"
           } `}
-          >
+        >
           <ul className="justify-center  pr-4 lg:pr-0 items-center space-y-6 md:flex md:space-x-6 sm:space-x-2 md:space-y-0">
             {navigation.map((item, idx) => {
               return (
                 <li
                   key={idx}
-                  className="text-gray-700 text-lg  hover:text-gray-900"
+                  className="text-gray-700 text-lg dark:text-white "
                 >
                   <Link to={item.path} className="block">
                     {item.title}
@@ -98,7 +100,7 @@ export default () => {
               </div>
             </div>
             <div className="xl:w-7 bg xl:h-7 w-5 h-5 ">
-              <div className="w-full  h-full">
+              <div className="w-full  h-full dark:bg-white">
                 <Link to="https://github.com/kishoranushka/">
                   {" "}
                   <img src={githublogo} alt="" />
@@ -114,7 +116,7 @@ export default () => {
               </div>
             </div>
             <div className="xl:w-7 xl:h-7 w-5 h-5  ">
-              <div className="w-full  h-full">
+              <div className="w-full  h-full  ">
                 <Link to="https://www.youtube.com/channel/UCQcfLPyMRijJ56SJZS2CBGw">
                   {" "}
                   <img src={youtubelogo} alt="" />
@@ -122,7 +124,7 @@ export default () => {
               </div>
             </div>
 
-            <Toggle/>
+            <Toggle />
           </div>
         </div>
       </div>

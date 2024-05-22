@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const CloneCard = ({data}) => {
   return (
-    <div className="card  lg:w-96 lg:mb-16 mt-16  glass  sm:flex rounded-xl overflow-hidden p-6  shadow-xl">
+    <div className="card  lg:w-96 lg:mb-16 mt-16  glass dark:bg-black dark:text-white sm:flex rounded-xl overflow-hidden p-6  shadow-xl">
       <figure>
         <img
           src={data.image}

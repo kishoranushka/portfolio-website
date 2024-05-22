@@ -16,9 +16,9 @@ import exhibitionimg from "../assets/CAexhibition.jpg";
 const Achievements = () => {
   return (
     <>
-      <div className="content  lg:px-60 xl:px-80 p-8  md:p-16 md:py-20">
+      <div className="content dark:bg-gray-900 lg:px-60 xl:px-80 p-8  md:p-16 md:py-20">
         <div className="photos   ">
-          <h1 className="lg:text-6xl text-center md:text-left text-4xl md:mb-10 mb-5 px-3 font-bold text-[#1f2937]">
+          <h1 className="lg:text-6xl text-center dark:text-white md:text-left text-4xl md:mb-10 mb-5 px-3 font-bold text-[#1f2937]">
             Academic Achievements!
           </h1>
 
@@ -27,7 +27,7 @@ const Achievements = () => {
               <AcademicAchievements key={idx} data={ele} />
             ))}
           </div>
-          <h1 className="lg:text-6xl text-4xl text-center md:text-left mb-10 px-3 font-bold text-[#1f2937]">
+          <h1 className="lg:text-6xl text-4xl text-center md:text-left mb-10 px-3 font-bold text-[#1f2937] dark:text-white">
             Non-Academic Achievements!
           </h1>
           <div className="md:flex mb-20 justify-around ">
@@ -35,7 +35,7 @@ const Achievements = () => {
               <AcademicAchievements key={idx} data={ele} />
             ))}
           </div>
-          <h1 className="lg:text-6xl text-center md:text-left text-4xl mb-10 px-3 font-bold text-[#1f2937]">
+          <h1 className="lg:text-6xl text-center md:text-left text-4xl mb-10 px-3 font-bold text-[#1f2937] dark:text-white">
             Creative Achievements!
           </h1>
           <div className="md:flex  justify-around ">

@@ -2,8 +2,8 @@ import React from "react";
 import myImg from "../assets/aboutimg.png";
 const About = () => {
   return (
-    <div className="lg:p-20 p-8 lg:px-60 xl:px-80 px-10 md:px-16 mt-10 lg:mt-0">
-      <p className="text-center  lg:text-6xl text-4xl font-bold text-[#1f2937] mb-10 underline">
+    <div className="lg:p-20 p-8 dark:bg-gray-900  lg:px-60 xl:px-80 px-10 md:px-16 mt-10 lg:mt-0">
+      <p className="text-center dark:text-white  lg:text-6xl text-4xl font-bold text-[#1f2937] mb-10 underline">
         About Me!
       </p>
       {/* <div className="flex flex-col md:flex-row bg-blue-400 gap-x-14 flex-col-on-small">
@@ -19,7 +19,7 @@ const About = () => {
           <img src={myImg} alt="" className="" />
         </div>
         <div className="w-full md:w-1/2">
-          <p className="text-justify">
+          <p className="text-justify dark:text-white">
             <span className="text-[#b8878b] font-bold text-2xl">
               Greetings,
             </span>{" "}

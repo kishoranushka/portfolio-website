@@ -11,7 +11,7 @@ const Footer = () => {
           <img
             src={waves}
             alt=""
-            className=" absolute   bottom-[390px] md:bottom-80"
+            className=" absolute dark:bg-gray-900  bottom-[390px] md:bottom-80"
           />
         </div>
         <div className="container mx-auto px-4 py-16 lg:px-8 lg:py-16 xl:max-w-7xl">
