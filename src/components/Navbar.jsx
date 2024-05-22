@@ -26,9 +26,9 @@ export default () => {
   }, []);
 
   return (
-    <nav className="  flex w-full lg:px-60 xl:px-80 md:px-16 py-7 px-8 bg-yellow-300 md:text-sm ">
-      <div className="gap-x-14 items-center bg-blue-400  w-full h-full  md:flex ">
-        <div className="flex items-center bg-pink-200  justify-between  md:block">
+    <nav className="  flex w-full lg:px-60 xl:px-80 md:px-16 py-7 px-8  md:text-sm ">
+      <div className="gap-x-14 items-center   w-full h-full  md:flex ">
+        <div className="flex items-center   justify-between  md:block">
           <Link to="/">
             <p className="text-3xl font-bold text-[#1f2937]">Anushka Kishor</p>
           </Link>
@@ -70,7 +70,7 @@ export default () => {
           </div>
         </div>
         <div
-          className={`flex-1 items-center justify-between bg-green-200 h-full   mt-8 md:mt-0 md:flex ${
+          className={`flex-1 items-center justify-between h-full   mt-8 md:mt-0 md:flex ${
             state ? "block" : "hidden"
           } `}
           >
@@ -89,8 +89,8 @@ export default () => {
             })}
           </ul>
           <div className=" md:flex bg md:pl-8 gap-5   hidden justify-end items-center   ">
-            <div className="xl:w-7 xl:h-7 bg-blue-400 w-5 h-5 ">
-              <div className="w-full bg-pink-700 h-full">
+            <div className="xl:w-7 xl:h-7  w-5 h-5 ">
+              <div className="w-full  h-full">
                 <Link to="https://www.linkedin.com/in/kishoranushka/">
                   {" "}
                   <img src={linkedinlogo} alt="" />
