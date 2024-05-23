@@ -2,17 +2,28 @@ import { useEffect, useState } from "react";
 import DesignerImage from "../assets/myimg.png";
 import blobImg from "../assets/blob.svg";
 import { Link } from "react-router-dom";
-import homeimg from "../assets/homepage.png";
+import homeimg from "../assets/pinkBg.png";
+import myImg from "../assets/myimgwithoutbg.png"
 
 const Home = () => {
   return (
     <div className="relative md:w-full dark:bg-gray-900  lg:p-20 p-8 lg:py-10  lg:px-60 xl:px-80 pb-0 md:px-16  lg:mt-0 ">
       <div className="relative w-full   ">
         <section className="w-full   ">
-          <div className="    ">
-            {/* Replace with your image */}
-
-            <img src={homeimg} alt="Designer" className="" />
+          <div>
+            <div className=" relative   ">
+              <img src={homeimg} alt="Designer" className="" />
+            </div>
+            <div className="homeGlass absolute top-40 left-32 p-20 text-2xl w-[1000px] h-[400px] text-[#b8878b]">
+              Hello there,
+              <br />{" "}
+              <span className="text-8xl font-bold text-[#b8878b]">
+                Anushka <br /> Kishor
+              </span>
+            </div>
+            <div className="absolute top-0 right-0  ">
+              {/* <img src={myImg} alt="" className="" /> */}
+            </div>
           </div>
           <div className="max-w-screen-xl mx-auto  py-12  gap-12 text-gray-600 overflow-hidden  justify-between w-full  md:flex ">
             <div className="flex-none space-y-5 max-w-xl">
