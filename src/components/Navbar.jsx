@@ -26,7 +26,7 @@ export default () => {
   }, []);
 
   return (
-    <nav className="  flex w-full lg:px-60 dark:bg-gray-900  xl:px-80 md:px-16 py-7 px-8  md:text-sm ">
+    <nav className="   flex w-full lg:px-60 dark:bg-gray-900  xl:px-80 md:px-16 py-7 px-8  md:text-sm ">
       <div className="gap-x-14 items-center   w-full h-full  md:flex ">
         <div className="flex items-center   justify-between  md:block">
           <Link to="/">

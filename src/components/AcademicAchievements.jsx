@@ -3,7 +3,7 @@ import React from 'react'
 
 const AcademicAchievements = ({data}) => {
   return (
-    <div className="thumbnails lg:w-[300px] md:h-[300px]  h-[350px]">
+    <div className="thumbnails lg:w-[300px] md:h-[300px] rounded-lg  h-[350px]">
       <img
         src={data.image}
         alt={data.alt}

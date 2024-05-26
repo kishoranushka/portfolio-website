@@ -1,28 +1,27 @@
-import { useEffect, useState } from "react";
-import DesignerImage from "../assets/myimg.png";
-import blobImg from "../assets/blob.svg";
 import { Link } from "react-router-dom";
 import homeimg from "../assets/pinkBg.png";
-import myImg from "../assets/myimgwithoutbg.png"
+import girl from "../assets/girlAI.png";
 
 const Home = () => {
   return (
-    <div className="relative md:w-full dark:bg-gray-900  lg:p-20 p-8 lg:py-10  lg:px-60 xl:px-80 pb-0 md:px-16  lg:mt-0 ">
+    <div className="relative md:w-full dark:bg-gray-900  pb-0 lg:mt-0 lg:px-60 xl:px-80 p-8  md:px-16 md:pb-20 ">
       <div className="relative w-full   ">
         <section className="w-full   ">
-          <div>
+          <div >
             <div className=" relative   ">
               <img src={homeimg} alt="Designer" className="" />
             </div>
-            <div className="homeGlass absolute top-40 left-32 p-20 text-2xl w-[1000px] h-[400px] text-[#b8878b]">
-              Hello there,
-              <br />{" "}
-              <span className="text-8xl font-bold text-[#b8878b]">
-                Anushka <br /> Kishor
-              </span>
+            <div className="homeGlass flex justify-between absolute top-10 left-10 xl:top-28 xl:left-28 xl:p-10 xl:py-20 text-2xl w-60 h-28    xl:w-[1050px] xl:h-[500px] text-[#b8878b]">
+              <div>
+                <p className="text-4xl w-full ">Hello there,</p>
+                <br />{" "}
+                <span className="xl:text-9xl text-3xl font-bold text-[#b8878b]">
+                  Anushka <br /> Kishor
+                </span>
+              </div>
             </div>
-            <div className="absolute top-0 right-0  ">
-              {/* <img src={myImg} alt="" className="" /> */}
+            <div className="  absolute top-28 right-28">
+              <img src={girl} alt="" className="w-[500px] h-[500px]" />
             </div>
           </div>
           <div className="max-w-screen-xl mx-auto  py-12  gap-12 text-gray-600 overflow-hidden  justify-between w-full  md:flex ">

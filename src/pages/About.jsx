@@ -1,9 +1,18 @@
 import React from "react";
 import myImg from "../assets/aboutimg.png";
+import SkillsCard from "../components/SkillsCard";
+import htmllogo from "../assets/htmllogo.png";
+import csslogo from "../assets/csslogo.jpg";
+import jslogo from "../assets/jslogo.png";
+import vitelogo from "../assets/vitelogo.jpg";
+import clogo from "../assets/c.png";
+import cpluslogo from "../assets/cpluslogo.png";
+import pythonlogo from "../assets/Pythonlogo.png";
+
 const About = () => {
   return (
-    <div className="lg:p-20 p-8 dark:bg-gray-900  lg:px-60 xl:px-80 px-10 md:px-16 mt-10 lg:mt-0">
-      <p className="text-center dark:text-white  lg:text-6xl text-4xl font-bold text-[#1f2937] mb-10 underline">
+    <div className="lg:p-20 p-8  dark:bg-gray-900  lg:px-60 xl:px-80 px-10 md:px-16 mt-10 lg:mt-0">
+      <p className=" dark:text-white  lg:text-6xl text-4xl font-bold text-[#1f2937] mb-10 ">
         About Me!
       </p>
       {/* <div className="flex flex-col md:flex-row bg-blue-400 gap-x-14 flex-col-on-small">
@@ -14,7 +23,7 @@ const About = () => {
         </p>
       </div> */}
 
-      <div className="flex flex-col md:flex-row w-full items-center justify-between gap-10">
+      <div className="flex flex-col  md:flex-row w-full items-center justify-between gap-10">
         <div className="w-full md:w-1/2">
           <img src={myImg} alt="" className="" />
         </div>
@@ -42,8 +51,59 @@ const About = () => {
           </p>
         </div>
       </div>
+
+      <div className="w-full h-full  rounded-lg mt-20">
+        <div>
+          <p className=" dark:text-white w-full lg:text-6xl text-4xl font-bold text-[#1f2937] mb-10 ">
+            Web Dev Skills!
+          </p>
+          <div className="md:flex mt-20  gap-10 justify-between">
+            {webskilldata.map((ele, idx) => (
+              <SkillsCard key={idx} data={ele} />
+            ))}
+          </div>
+        </div>
+        {/* <div className="mt-10">
+          <p className=" dark:text-white w-full lg:text-6xl text-4xl font-bold text-[#1f2937] mb-10 ">
+            Programming Skills!
+          </p>
+          <div className="md:flex mt-20  gap-10 justify-between">
+            {progskilldata.map((ele, idx) => (
+              <SkillsCard key={idx} data={ele} />
+            ))}
+          </div>
+        </div> */}
+      </div>
     </div>
   );
 };
+
+const webskilldata = [
+  {
+    txt: "hii",
+    image: htmllogo,
+  },
+  {
+    image: csslogo,
+  },
+  {
+    image: jslogo,
+  },
+  {
+    image: vitelogo,
+  },
+];
+
+const progskilldata = [
+  {
+    image: clogo,
+  },
+  {
+    image: cpluslogo,
+  },
+  {
+    image: pythonlogo,
+  },
+];
 
 export default About;
