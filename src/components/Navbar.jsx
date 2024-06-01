@@ -5,6 +5,7 @@ import youtubelogo from "../assets/youtube.png";
 import twitterlogo from "../assets/x.png";
 import githublogo from "../assets/github.png";
 import Toggle from "./Toggle";
+import { GithubIcon } from "../utils/Icon";
 
 export default () => {
   const [state, setState] = useState(false);
@@ -102,8 +103,7 @@ export default () => {
             <div className="xl:w-7 bg xl:h-7 w-5 h-5 ">
               <div className="w-full  h-full dark:bg-white">
                 <Link to="https://github.com/kishoranushka/">
-                  {" "}
-                  <img src={githublogo} alt="" />
+                  <GithubIcon />
                 </Link>
               </div>
             </div>

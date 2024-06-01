@@ -36,7 +36,7 @@ const Footer = () => {
                   <div>
                     <Link
                       to="/"
-                      className="text-lg font-semibold text-black-600 hover:text-white dark:text-blue-400 dark:hover:text-blue-300"
+                      className="text-lg font-semibold text-black-600 hover:text-white dark:text-blue-900 dark:hover:text-black"
                     >
                       Anushka Kishor
                     </Link>
