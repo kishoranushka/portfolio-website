@@ -12,7 +12,7 @@ const CloneCard = ({data}) => {
         />
       </figure>
       <div className="card-body  ">
-        <p className="text-blue-800 font-semibold mb-2">{data.category}</p>
+        <p className="text-pink-800 font-semibold mb-2">{data.category}</p>
         <h2 className="card-title text-xl font-bold mb-2">{data.title}</h2>
         <p className="mb-4">{data.desc}</p>
         <div className="card-actions justify-end">

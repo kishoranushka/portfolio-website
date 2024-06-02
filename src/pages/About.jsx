@@ -11,7 +11,7 @@ import pythonlogo from "../assets/Pythonlogo.png";
 
 const About = () => {
   return (
-    <div className="lg:p-20 p-8  dark:bg-gray-900  lg:px-60 xl:px-80 px-10 md:px-16 mt-10 lg:mt-0">
+    <div className="max-w-screen-xl md:mx-auto mx-3  dark:bg-gray-900  mt-16 ">
       <p className=" dark:text-white  lg:text-6xl text-4xl font-bold text-[#1f2937] mb-10 ">
         About Me!
       </p>
@@ -57,10 +57,17 @@ const About = () => {
           <p className=" dark:text-white w-full lg:text-6xl text-4xl font-bold text-[#1f2937] mb-10 ">
             Web Dev Skills!
           </p>
-          <div className="md:flex mt-20  gap-10 justify-between">
-            {webskilldata.map((ele, idx) => (
-              <SkillsCard key={idx} data={ele} />
-            ))}
+          <div className="lg:flex gap-10">
+            <div className="flex lg:mt-12  gap-10 justify-between">
+              {webskilldatarow1.map((ele, idx) => (
+                <SkillsCard key={idx} data={ele} />
+              ))}
+            </div>
+            <div className="flex lg:mt-12  gap-10 justify-between">
+              {webskilldatarow2.map((ele, idx) => (
+                <SkillsCard key={idx} data={ele} />
+              ))}
+            </div>
           </div>
         </div>
         {/* <div className="mt-10">
@@ -78,14 +85,18 @@ const About = () => {
   );
 };
 
-const webskilldata = [
+const webskilldatarow1 = [
   {
-    txt: "hii",
+   
     image: htmllogo,
   },
   {
     image: csslogo,
   },
+  
+];
+const webskilldatarow2 = [
+  
   {
     image: jslogo,
   },

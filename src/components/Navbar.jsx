@@ -27,15 +27,15 @@ export default () => {
   }, []);
 
   return (
-    <nav className="   flex w-full lg:px-60 dark:bg-gray-900  xl:px-80 md:px-16 py-7 px-8  md:text-sm ">
+    <nav className="max-w-screen-xl md:mx-auto mx-3 flex-col  justify-between mt-3">
       <div className="gap-x-14 items-center   w-full h-full  md:flex ">
         <div className="flex items-center   justify-between  md:block">
           <Link to="/">
-            <p className="text-3xl font-bold dark:text-white text-[#1f2937]">
+            <p className="lg:text-3xl xs: font-bold dark:text-white text-[#1f2937]">
               Anushka Kishor
             </p>
           </Link>
-          <div className="md:hidden ">
+          <div className="md:hidden  ">
             <button
               className="menu-btn text-gray-500  hover:text-gray-800"
               onClick={() => setState(!state)}
@@ -73,16 +73,16 @@ export default () => {
           </div>
         </div>
         <div
-          className={`flex-1 items-center justify-between h-full   mt-8 md:mt-0 md:flex ${
+          className={`flex-1 items-center justify-between h-full  shadow-lg md:shadow-none p-2 md:p-0  mt-8 md:mt-0 md:flex ${
             state ? "block" : "hidden"
           } `}
         >
-          <ul className="justify-center  pr-4 lg:pr-0 items-center space-y-6 md:flex md:space-x-6 sm:space-x-2 md:space-y-0">
+          <ul className="justify-end   pr-4 lg:pr-0 items-center space-y-6 md:flex md:space-x-6 sm:space-x-2 md:space-y-0">
             {navigation.map((item, idx) => {
               return (
                 <li
                   key={idx}
-                  className="text-gray-700 text-lg dark:text-white "
+                  className="text-gray-700 xl:text-lg  dark:text-white text-sm "
                 >
                   <Link to={item.path} className="block">
                     {item.title}
@@ -91,7 +91,7 @@ export default () => {
               );
             })}
           </ul>
-          <div className=" md:flex bg md:pl-8 gap-5   hidden justify-end items-center   ">
+          <div className=" flex  md:pl-8 gap-5  mt-10 md:mt-0   items-center   ">
             <div className="xl:w-7 xl:h-7  w-5 h-5 ">
               <div className="w-full  h-full">
                 <Link to="https://www.linkedin.com/in/kishoranushka/">
@@ -124,7 +124,7 @@ export default () => {
               </div>
             </div>
 
-            <Toggle />
+            {/* <Toggle /> */}
           </div>
         </div>
       </div>

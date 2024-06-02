@@ -19,7 +19,7 @@ const Toggle = () => {
     <div>
       <button
         onClick={() => setDarkMode(!darkMode)}
-        className="w-full h-full bg-black dark:bg-white text-white font-bold p-2 rounded dark:text-black"
+        className="lg:w-full h-full  bg-black dark:bg-white  font-bold  text-white lg:font-bold p-2 rounded dark:text-black"
       >
         {darkMode ? "Light " : "Dark "} Mode
       </button>

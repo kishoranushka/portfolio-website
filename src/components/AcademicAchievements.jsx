@@ -10,7 +10,7 @@ const AcademicAchievements = ({data}) => {
         className='w-full'
       />
       <div className="blackbox "></div>
-      <div className="title font-bold lg:font-semibold text-2xl">{data.title}</div>
+      <div className="title font-bold lg:font-semibold text-xl text-center">{data.title}</div>
     </div>
   );
 }
