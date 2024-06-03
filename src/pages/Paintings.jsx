@@ -14,9 +14,9 @@ import { Link } from 'react-router-dom';
 const Paintings = () => {
   // customjs()
   return (
-    <div className="  max-w-screen-xl md:mx-auto mx-3 mt-16 dark:bg-gray-900 ">
+    <div className="  max-w-screen-xl md:mx-auto mx-3 mt-16  ">
       <div className="">
-        <h1 className="md:text-6xl text-4xl mb-10 font-bold text-[#1f2937] dark:text-white">
+        <h1 className="md:text-6xl text-4xl mb-10 font-bold ">
           Paintings!
         </h1>
         <div className="md:flex  gap-10 justify-between">
@@ -29,7 +29,7 @@ const Paintings = () => {
             <PaintingCard key={idx} data={ele} />
           ))}
         </div>
-        <h1 className="md:text-6xl text-4xl mb-10 font-bold text-[#1f2937] dark:text-white">
+        <h1 className="md:text-6xl text-4xl mb-10 font-bold ">
           Wall Paintings!
         </h1>
 

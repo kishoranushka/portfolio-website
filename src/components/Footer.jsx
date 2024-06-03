@@ -6,17 +6,17 @@ import footerimg from "../assets/myimg.png";
 const Footer = () => {
   return (
     <>
-      <div className="bg-[#b8878b] relative  dark:text-gray-100 mt-20 lg:mt-80">
+      <div className="bg-[#b8878b] relative   mt-20 lg:mt-80">
         <div className="bg-white  z-10  ">
           <img
             src={waves}
             alt=""
-            className=" absolute dark:bg-gray-900  bottom-[390px] md:bottom-80"
+            className=" absolute   bottom-[390px] md:bottom-80"
           />
         </div>
         <div className="container mx-auto px-4 py-16 lg:px-8 lg:py-16 xl:max-w-7xl">
           <div className="relative ">
-            <div className="absolute right-0 top-0 -mt-5 font-serif text-9xl text-gray-200 opacity-75 dark:text-gray-700/75">
+            <div className="absolute right-0 top-0 -mt-5 font-serif text-9xl text-gray-200 opacity-75 ">
               “
             </div>
             <div className="relative text-center ">
@@ -36,7 +36,7 @@ const Footer = () => {
                   <div>
                     <Link
                       to="/"
-                      className="text-lg font-semibold text-black-600 hover:text-white dark:text-blue-900 dark:hover:text-black"
+                      className="text-lg font-semibold text-black-600 hover:text-white  text-black"
                     >
                       Anushka Kishor
                     </Link>

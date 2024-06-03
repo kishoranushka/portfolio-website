@@ -31,7 +31,7 @@ export default () => {
       <div className="gap-x-14 items-center   w-full h-full  md:flex ">
         <div className="flex items-center   justify-between  md:block">
           <Link to="/">
-            <p className="lg:text-3xl xs: font-bold dark:text-white text-[#1f2937]">
+            <p className="lg:text-3xl xs: font-bold ">
               Anushka Kishor
             </p>
           </Link>
@@ -82,7 +82,7 @@ export default () => {
               return (
                 <li
                   key={idx}
-                  className="text-gray-700 xl:text-lg  dark:text-white text-sm "
+                  className=" xl:text-lg   text-sm "
                 >
                   <Link to={item.path} className="block">
                     {item.title}

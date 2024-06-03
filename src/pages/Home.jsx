@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import homeimg from "../assets/pinkBg.png";
+// import homeimg from "../assets/pinkBg.png";
 import girl from "../assets/girlAI.png";
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
             <div className=" w-full  md:w-56 flex  my-2 justify-start md:mt-20 mt-5">
               <a
                 href="https://drive.google.com/file/d/1uq8TmZ69uCkrbYfkN6GrNDlU5wxlDqf5/view?usp=sharing"
-                className=" p-2 rounded-md font-semibold bg-[#d3a2a6] w-full text-center "
+                className=" p-2 rounded-md font-semibold bg-[#d3a2a6] hover:bg-[#e9b1b7] hover:text-blue-900 w-full text-center text-black "
               >
                 Resume{" "}
               </a>
@@ -22,7 +22,7 @@ const Home = () => {
             <div className=" w-full  md:w-56 flex  my-2 justify-start md:mt-20 ">
               <Link
                 to="/about"
-                className=" p-2 rounded-md font-semibold  w-full text-center "
+                className=" p-2 rounded-md font-semibold hover:text-blue-900  w-full text-center "
               >
                 Know more about me...{" "}
               </Link>

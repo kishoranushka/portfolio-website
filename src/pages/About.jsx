@@ -11,8 +11,8 @@ import pythonlogo from "../assets/Pythonlogo.png";
 
 const About = () => {
   return (
-    <div className="max-w-screen-xl md:mx-auto mx-3  dark:bg-gray-900  mt-16 ">
-      <p className=" dark:text-white  lg:text-6xl text-4xl font-bold text-[#1f2937] mb-10 ">
+    <div className="max-w-screen-xl md:mx-auto mx-3    mt-16 ">
+      <p className="  lg:text-6xl text-4xl font-bold  mb-10 ">
         About Me!
       </p>
       {/* <div className="flex flex-col md:flex-row bg-blue-400 gap-x-14 flex-col-on-small">
@@ -54,7 +54,7 @@ const About = () => {
 
       <div className="w-full h-full  rounded-lg mt-20">
         <div>
-          <p className=" dark:text-white w-full lg:text-6xl text-4xl font-bold text-[#1f2937] mb-10 ">
+          <p className="  w-full lg:text-6xl text-4xl font-bold  mb-10 ">
             Web Dev Skills!
           </p>
           <div className="lg:flex gap-10">
