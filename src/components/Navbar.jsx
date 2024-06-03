@@ -37,7 +37,7 @@ export default () => {
           </Link>
           <div className="md:hidden  ">
             <button
-              className="menu-btn text-gray-500  hover:text-gray-800"
+              className="menu-btn "
               onClick={() => setState(!state)}
             >
               {state ? (
@@ -73,7 +73,7 @@ export default () => {
           </div>
         </div>
         <div
-          className={`flex-1 items-center justify-between h-full  shadow-lg md:shadow-none p-2 md:p-0  mt-8 md:mt-0 md:flex ${
+          className={`flex-1 items-center justify-between h-full rounded  shadow-xl md:shadow-none p-3 md:p-0  mt-8 md:mt-0 md:flex ${
             state ? "block" : "hidden"
           } `}
         >
