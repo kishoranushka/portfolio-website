@@ -16,7 +16,7 @@ const Paintings = () => {
   return (
     <div className="  max-w-screen-xl md:mx-auto mx-3 mt-16  ">
       <div className="">
-        <h1 className="md:text-6xl text-4xl mb-10 font-bold ">
+        <h1 className="md:text-6xl text-4xl mb-10 font-bold text-[#183D3D]">
           Paintings!
         </h1>
         <div className="md:flex  gap-10 justify-between">
@@ -29,7 +29,7 @@ const Paintings = () => {
             <PaintingCard key={idx} data={ele} />
           ))}
         </div>
-        <h1 className="md:text-6xl text-4xl mb-10 font-bold ">
+        <h1 className="md:text-6xl text-4xl mb-10 font-bold text-[#183D3D]">
           Wall Paintings!
         </h1>
 
@@ -40,7 +40,7 @@ const Paintings = () => {
         </div>
 
         <div className=" flex justify-center mt-20  ">
-          <button className="btn  bg-[#b8878b] p-3 md:px-32 px:10 rounded text-white hover:bg-gray-700 font-bold">
+          <button className="btn  bg-[#5C8374] p-3 md:px-32 px:10 rounded text-white hover:bg-[#93B1A6] font-bold">
             <Link to="https://www.instagram.com/art__insight__9">
               See More...
             </Link>

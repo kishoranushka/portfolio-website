@@ -5,14 +5,14 @@ import htmllogo from "../assets/htmllogo.png";
 import csslogo from "../assets/csslogo.jpg";
 import jslogo from "../assets/jslogo.png";
 import vitelogo from "../assets/vitelogo.jpg";
-import clogo from "../assets/c.png";
-import cpluslogo from "../assets/cpluslogo.png";
-import pythonlogo from "../assets/Pythonlogo.png";
+import {clogo} from "../utils/Icon";
+import {cpluslogo} from "../utils/Icon";
+// import pythonlogo from "../assets/Pythonlogo.png";
 
 const About = () => {
   return (
     <div className="max-w-screen-xl md:mx-auto mx-3    mt-16 ">
-      <p className="  lg:text-6xl text-4xl font-bold  mb-10 ">
+      <p className="  lg:text-6xl text-4xl font-bold  mb-10 text-[#183D3D] ">
         About Me!
       </p>
       {/* <div className="flex flex-col md:flex-row bg-blue-400 gap-x-14 flex-col-on-small">
@@ -29,7 +29,7 @@ const About = () => {
         </div>
         <div className="w-full md:w-1/2">
           <p className="text-justify dark:text-white">
-            <span className="text-[#b8878b] font-bold text-2xl">
+            <span className="text-[#5C8374] font-bold text-2xl">
               Greetings,
             </span>{" "}
             <br />
@@ -54,7 +54,7 @@ const About = () => {
 
       <div className="w-full h-full  rounded-lg mt-20">
         <div>
-          <p className="  w-full lg:text-6xl text-4xl font-bold  mb-10 ">
+          <p className="  w-full lg:text-6xl text-4xl font-bold  mb-10 text-[#183D3D] ">
             Web Dev Skills!
           </p>
           <div className="lg:flex gap-10">
@@ -70,16 +70,17 @@ const About = () => {
             </div>
           </div>
         </div>
-        {/* <div className="mt-10">
-          <p className=" dark:text-white w-full lg:text-6xl text-4xl font-bold text-[#1f2937] mb-10 ">
+        <div className="mt-10">
+          {/* <p className="  w-full lg:text-6xl text-4xl font-bold  mb-10 ">
             Programming Skills!
-          </p>
-          <div className="md:flex mt-20  gap-10 justify-between">
-            {progskilldata.map((ele, idx) => (
-              <SkillsCard key={idx} data={ele} />
-            ))}
-          </div>
-        </div> */}
+          </p> */}
+
+          {/* <div className="flex lg:mt-12  gap-10 ">
+              {progskilldata.map((ele, idx) => (
+                <SkillsCard key={idx} data={ele} />
+              ))}
+            </div> */}
+        </div>
       </div>
     </div>
   );
@@ -112,9 +113,9 @@ const progskilldata = [
   {
     image: cpluslogo,
   },
-  {
-    image: pythonlogo,
-  },
+  // {
+  //   image: pythonlogo,
+  // },
 ];
 
 export default About;

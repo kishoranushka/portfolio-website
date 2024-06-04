@@ -31,15 +31,12 @@ export default () => {
       <div className="gap-x-14 items-center   w-full h-full  md:flex ">
         <div className="flex items-center   justify-between  md:block">
           <Link to="/">
-            <p className="lg:text-3xl xs: font-bold ">
+            <p className="lg:text-3xl xs: font-bold text-[#5C8374]">
               Anushka Kishor
             </p>
           </Link>
           <div className="md:hidden  ">
-            <button
-              className="menu-btn "
-              onClick={() => setState(!state)}
-            >
+            <button className="menu-btn " onClick={() => setState(!state)}>
               {state ? (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +79,7 @@ export default () => {
               return (
                 <li
                   key={idx}
-                  className=" xl:text-lg   text-sm "
+                  className=" xl:text-lg   text-sm text-[#5C8374] hover:text-[#93B1A6] dark:text-white"
                 >
                   <Link to={item.path} className="block">
                     {item.title}

@@ -6,7 +6,7 @@ import footerimg from "../assets/myimg.png";
 const Footer = () => {
   return (
     <>
-      <div className="bg-[#b8878b] relative   mt-20 lg:mt-80">
+      <div className="bg-[#5C8374] relative   mt-20 lg:mt-80">
         <div className="bg-white  z-10  ">
           <img
             src={waves}
@@ -36,7 +36,7 @@ const Footer = () => {
                   <div>
                     <Link
                       to="/"
-                      className="text-lg font-semibold text-black-600 hover:text-white  text-black"
+                      className="text-lg font-semibold text-black-600 hover:text-[#93B1A6]  text-[#183D3D]"
                     >
                       Anushka Kishor
                     </Link>
