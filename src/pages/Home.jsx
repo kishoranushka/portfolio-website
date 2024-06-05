@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 // import homeimg from "../assets/pinkBg.png";
-import girl from "../assets/girlAI.png";
+import girl from "../assets/girl.png";
 
 const Home = () => {
   return (
