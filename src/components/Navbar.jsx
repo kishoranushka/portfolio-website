@@ -31,7 +31,7 @@ export default () => {
       <div className="gap-x-14 items-center   w-full h-full  md:flex ">
         <div className="flex items-center   justify-between  md:block">
           <Link to="/">
-            <p className="lg:text-3xl xs: font-bold text-[#5C8374]">
+            <p className="lg:text-3xl xs: font-bold text-[#392467] dark:text-[#FFD1E3]">
               Anushka Kishor
             </p>
           </Link>
@@ -79,7 +79,7 @@ export default () => {
               return (
                 <li
                   key={idx}
-                  className=" xl:text-lg   text-sm text-[#5C8374] hover:text-[#93B1A6] dark:text-white"
+                  className=" xl:text-lg   text-sm text-[#392467] hover:text-[#A367B1] dark:text-[#FFD1E3] dark:hover:text-white"
                 >
                   <Link to={item.path} className="block">
                     {item.title}

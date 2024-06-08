@@ -13,7 +13,7 @@ const Projects = () => {
     <>
       <div className=" max-w-screen-xl md:mx-auto mx-3 mt-16        ">
         <div className=" w-full">
-          <h1 className="lg:text-6xl text-center  lg:text-left text-4xl mb-10 font-bold text-[#183D3D]">
+          <h1 className="lg:text-6xl text-center  lg:text-left text-4xl mb-10 font-bold text-[#392467] dark:text-[#FFD1E3]">
             Projects!
           </h1>
           {ProjectsData.map((ele, idx) => (
@@ -22,7 +22,7 @@ const Projects = () => {
         </div>
 
         <div>
-          <h1 className="lg:text-6xl text-center lg:text-left text-4xl mb-10 font-bold  text-[#183D3D]">
+          <h1 className="lg:text-6xl text-center lg:text-left text-4xl mb-10 font-bold  text-[#392467] dark:text-[#FFD1E3]">
             Clone!
           </h1>
           <div className="lg:flex   justify-between">
@@ -43,7 +43,7 @@ const ProjectsData = [
     title: "RoleHunt - A Placement Management System",
     link: "https://rolehunt.vercel.app/",
     desc: "Created and deployed a comprehensive Next.js placement management system. Worked on the user side of the project to enable students easily navigate through the platform.",
-    btnText: "Checkout",
+    btnText: "Visit",
     category: "Web Development",
     image: RolehuntImage,
   },
@@ -51,7 +51,7 @@ const ProjectsData = [
     title: "Weather Web App",
     link: "https://kishoranushka.github.io/weather-app/",
     desc: "Created and deployed a comprehensive Next.js placement management system. Worked on the user side of the project to enable students easily navigate through the platform.",
-    btnText: "Checkout",
+    btnText: "Visit",
     category: "Web Development",
     image: weatherimg1,
   },
@@ -62,7 +62,7 @@ const CloneCardData = [
     title: "Zomato Web Clone",
     link: "https://kishoranushka.github.io/zomato-web-clone/",
     desc: "Created and deployed the clone of zomato home page made using HTML and CSS.",
-    btnText: "Checkout",
+    btnText: "Visit",
     category: "Web Development",
     image: zomato,
   },
@@ -70,7 +70,7 @@ const CloneCardData = [
     title: "PrepInstaPrime Web Clone",
     link: "https://kishoranushka.github.io/prepinsta-clone/",
     desc: "Created and deployed the clone of PrepInstaPrime home page made using HTML and Tailwind CSS and Javascript.",
-    btnText: "Checkout",
+    btnText: "Visit",
     category: "Web Development",
     image: prep,
   },
@@ -78,7 +78,7 @@ const CloneCardData = [
     title: "Uber Web Clone",
     link: "https://kishoranushka.github.io/uber-web-clone/",
     desc: "Created and deployed the clone of uber home page made using HTML and CSS.",
-    btnText: "Checkout",
+    btnText: "Visit",
     category: "Web Development",
     image: uber,
   },

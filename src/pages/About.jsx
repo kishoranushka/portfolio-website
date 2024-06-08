@@ -4,7 +4,7 @@ import SkillsCard from "../components/SkillsCard";
 import htmllogo from "../assets/htmllogo.png";
 import csslogo from "../assets/csslogo.jpg";
 import jslogo from "../assets/jslogo.png";
-import vitelogo from "../assets/vitelogo.jpg";
+import reactlogo from "../assets/reactlogo.png";
 import {clogo} from "../utils/Icon";
 import {cpluslogo} from "../utils/Icon";
 // import pythonlogo from "../assets/Pythonlogo.png";
@@ -12,7 +12,7 @@ import {cpluslogo} from "../utils/Icon";
 const About = () => {
   return (
     <div className="max-w-screen-xl md:mx-auto mx-3    mt-16 ">
-      <p className="  lg:text-6xl text-4xl font-bold  mb-10 text-[#183D3D] ">
+      <p className="  lg:text-6xl text-4xl font-bold  mb-10 text-[#392467] dark:text-[#FFD1E3] ">
         About Me!
       </p>
       {/* <div className="flex flex-col md:flex-row bg-blue-400 gap-x-14 flex-col-on-small">
@@ -29,7 +29,7 @@ const About = () => {
         </div>
         <div className="w-full md:w-1/2">
           <p className="text-justify dark:text-white">
-            <span className="text-[#5C8374] font-bold text-2xl">
+            <span className="text-[#5D3587] dark:text-[#A367B1] font-bold text-2xl">
               Greetings,
             </span>{" "}
             <br />
@@ -54,7 +54,7 @@ const About = () => {
 
       <div className="w-full h-full  rounded-lg mt-20">
         <div>
-          <p className="  w-full lg:text-6xl text-4xl font-bold  mb-10 text-[#183D3D] ">
+          <p className="  w-full lg:text-6xl text-4xl font-bold  mb-10 text-[#392467] dark:text-[#FFD1E3]">
             Web Dev Skills!
           </p>
           <div className="lg:flex gap-10">
@@ -88,21 +88,19 @@ const About = () => {
 
 const webskilldatarow1 = [
   {
-   
     image: htmllogo,
   },
   {
     image: csslogo,
   },
-  
-];
-const webskilldatarow2 = [
-  
   {
     image: jslogo,
   },
+  
+];
+const webskilldatarow2 = [
   {
-    image: vitelogo,
+    image: reactlogo,
   },
 ];
 

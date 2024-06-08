@@ -18,7 +18,7 @@ const Achievements = () => {
     <>
       <div className="mt-16   max-w-screen-xl md:mx-auto mx-3">
         <div className="photos   ">
-          <h1 className="lg:text-6xl text-center  md:text-left text-4xl md:mb-10 mb-5  font-bold text-[#183D3D]">
+          <h1 className="lg:text-6xl text-center  md:text-left text-4xl md:mb-10 mb-5  font-bold text-[#392467] dark:text-[#FFD1E3]">
             Academic Achievements!
           </h1>
 
@@ -27,7 +27,7 @@ const Achievements = () => {
               <AcademicAchievements key={idx} data={ele} />
             ))}
           </div>
-          <h1 className="lg:text-6xl text-4xl text-center md:text-left mb-10  font-bold text-[#183D3D]">
+          <h1 className="lg:text-6xl text-4xl text-center md:text-left mb-10  font-bold text-[#392467] dark:text-[#FFD1E3]">
             Non-Academic Achievements!
           </h1>
           <div className="md:flex mb-20 justify-around ">
@@ -35,7 +35,7 @@ const Achievements = () => {
               <AcademicAchievements key={idx} data={ele} />
             ))}
           </div>
-          <h1 className="lg:text-6xl text-center md:text-left text-4xl mb-10  font-bold text-[#183D3D]">
+          <h1 className="lg:text-6xl text-center md:text-left text-4xl mb-10  font-bold text-[#392467] dark:text-[#FFD1E3]">
             Creative Achievements!
           </h1>
           <div className="md:flex  justify-around ">
