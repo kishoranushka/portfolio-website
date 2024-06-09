@@ -1,13 +1,18 @@
 import React from "react";
 import myImg from "../assets/aboutimg.png";
 import SkillsCard from "../components/SkillsCard";
-import htmllogo from "../assets/htmllogo.png";
-import csslogo from "../assets/csslogo.jpg";
-import jslogo from "../assets/jslogo.png";
-import reactlogo from "../assets/reactlogo.png";
-import {clogo} from "../utils/Icon";
-import {cpluslogo} from "../utils/Icon";
-// import pythonlogo from "../assets/Pythonlogo.png";
+import {
+  CssLogo,
+  HtmlLogo,
+  JavascriptLogo,
+  ReactLogo,
+  CplusLogo,
+  PythonLogo,
+  GitLogo,
+  GithubIcon,
+  PostmanLogo,
+  // CLogo,
+} from "../utils/Icon";
 
 const About = () => {
   return (
@@ -54,7 +59,7 @@ const About = () => {
 
       <div className="w-full h-full  rounded-lg mt-20">
         <div>
-          <p className="  w-full lg:text-6xl text-4xl font-bold  mb-10 text-[#392467] dark:text-[#FFD1E3]">
+          <p className="  w-full lg:text-6xl text-4xl font-bold mb-5  text-[#392467] dark:text-[#FFD1E3]">
             Web Dev Skills!
           </p>
           <div className="lg:flex gap-10">
@@ -71,15 +76,26 @@ const About = () => {
           </div>
         </div>
         <div className="mt-10">
-          {/* <p className="  w-full lg:text-6xl text-4xl font-bold  mb-10 ">
+          <p className="  w-full lg:text-6xl text-4xl font-bold  mb-5 text-[#392467] dark:text-[#FFD1E3]">
             Programming Skills!
-          </p> */}
+          </p>
 
-          {/* <div className="flex lg:mt-12  gap-10 ">
-              {progskilldata.map((ele, idx) => (
-                <SkillsCard key={idx} data={ele} />
-              ))}
-            </div> */}
+          <div className="flex lg:mt-12  gap-10 ">
+            {progskilldata.map((ele, idx) => (
+              <SkillsCard key={idx} data={ele} />
+            ))}
+          </div>
+        </div>
+        <div className="mt-10">
+          <p className="  w-full lg:text-6xl text-4xl font-bold  mb-5 text-[#392467] dark:text-[#FFD1E3]">
+            Other Skills!
+          </p>
+
+          <div className="flex lg:mt-12  gap-10 ">
+            {otherskilldata.map((ele, idx) => (
+              <SkillsCard key={idx} data={ele} />
+            ))}
+          </div>
         </div>
       </div>
     </div>
@@ -88,32 +104,45 @@ const About = () => {
 
 const webskilldatarow1 = [
   {
-    image: htmllogo,
+    image: <HtmlLogo/>,
   },
   {
-    image: csslogo,
+    image: <CssLogo/>,
   },
   {
-    image: jslogo,
+    image: <JavascriptLogo/>,
   },
   
 ];
 const webskilldatarow2 = [
   {
-    image: reactlogo,
+    image: <ReactLogo/>,
   },
 ];
 
 const progskilldata = [
-  {
-    image: clogo,
-  },
-  {
-    image: cpluslogo,
-  },
   // {
-  //   image: pythonlogo,
+  //   image:  <CLogo/>
   // },
+  {
+    image: <CplusLogo />,
+  },
+  {
+    image: <PythonLogo />,
+  },
+  
+];
+
+const otherskilldata = [
+  {
+    image: <GitLogo />,
+  },
+  {
+    image: <GithubIcon />,
+  },
+  {
+    image: <PostmanLogo />,
+  },
 ];
 
 export default About;

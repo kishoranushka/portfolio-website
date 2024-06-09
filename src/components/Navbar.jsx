@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import linkedinlogo from "../assets/linkedin.png";
-import youtubelogo from "../assets/youtube.png";
-import twitterlogo from "../assets/x.png";
-import githublogo from "../assets/github.png";
-import Toggle from "./Toggle";
-import { GithubIcon } from "../utils/Icon";
+import {
+  HashnodeLogo,
+  LinkedinLogo,
+  GithubIcon,
+  YoutubeLogo,
+} from "../utils/Icon";
+
 
 export default () => {
   const [state, setState] = useState(false);
@@ -92,8 +93,7 @@ export default () => {
             <div className="xl:w-7 xl:h-7  w-5 h-5 ">
               <div className="w-full  h-full">
                 <Link to="https://www.linkedin.com/in/kishoranushka/">
-                  {" "}
-                  <img src={linkedinlogo} alt="" />
+                  <LinkedinLogo />
                 </Link>
               </div>
             </div>
@@ -106,17 +106,15 @@ export default () => {
             </div>
             <div className="xl:w-7 xl:h-7 w-5 h-5  ">
               <div className="w-full  h-full">
-                <Link to="https://x.com/Anushka30131">
-                  {" "}
-                  <img src={twitterlogo} alt="" />
+                <Link to="https://kishoranushka.hashnode.dev/">
+                  <HashnodeLogo />
                 </Link>
               </div>
             </div>
             <div className="xl:w-7 xl:h-7 w-5 h-5  ">
               <div className="w-full  h-full  ">
                 <Link to="https://www.youtube.com/channel/UCQcfLPyMRijJ56SJZS2CBGw">
-                  {" "}
-                  <img src={youtubelogo} alt="" />
+                  <YoutubeLogo />
                 </Link>
               </div>
             </div>
