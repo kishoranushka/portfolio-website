@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 // import homeimg from "../assets/pinkBg.png";
-import girl from "../assets/girl.png";
+import girl from "../assets/myimgHome.png";
 
 const Home = () => {
   return (
@@ -29,7 +29,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="w-full md:w-1/2 order-2">
+        <div className="w-full  md:w-1/3 order-2">
           <img src={girl} className="w-full" />
         </div>
       </div>

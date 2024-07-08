@@ -39,8 +39,8 @@ const Paintings = () => {
           ))}
         </div>
 
-        <div className=" flex justify-center mt-20  ">
-          <button className="btn  bg-[#5D3587] dark:bg-[#FFD1E3] dark:text-[#5D3587] dark:hover:bg-white p-3 md:px-32 px:10 rounded-md text-white hover:bg-[#392467] font-bold">
+        <div className=" flex justify-center mt-20   ">
+          <button className="btn  bg-[#5D3587] mb-20 dark:bg-[#FFD1E3] dark:text-[#5D3587] dark:hover:bg-white p-3 md:px-32 px:10 rounded-md text-white hover:bg-[#392467] font-bold">
             <a href="https://www.instagram.com/art__insight__9">
               See More...
             </a>
