@@ -13,7 +13,7 @@ import About from "./pages/About";
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="min-h-screen md:flex md:flex-col justify-between max-w-screen-xl mx-auto">
+      <div className="min-h-screen    md:flex md:flex-col justify-between max-w-screen-xl mx-auto ">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
