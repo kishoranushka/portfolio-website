@@ -13,7 +13,7 @@ const Projects = () => {
     <>
       <div className=" max-w-screen-xl md:mx-auto mx-3 mt-16        ">
         <div className=" w-full">
-          <h1 className="lg:text-6xl text-center  lg:text-left text-4xl mb-10 font-bold text-[#392467] dark:text-[#FFD1E3]">
+          <h1 className="lg:text-6xl text-center  lg:text-left text-4xl mb-10 font-bold text-gray-800">
             Projects!
           </h1>
           {ProjectsData.map((ele, idx) => (
@@ -22,7 +22,7 @@ const Projects = () => {
         </div>
 
         <div>
-          <h1 className="lg:text-6xl text-center lg:text-left text-4xl mb-10 font-bold  text-[#392467] dark:text-[#FFD1E3]">
+          <h1 className="lg:text-6xl text-center lg:text-left text-4xl mb-10 font-bold  text-gray-800">
             Clone!
           </h1>
           <div className="lg:flex   justify-between">

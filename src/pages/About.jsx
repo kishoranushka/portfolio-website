@@ -17,7 +17,7 @@ import {
 const About = () => {
   return (
     <div className="max-w-screen-xl md:mx-auto mx-3    mt-16 ">
-      <p className="  lg:text-6xl text-4xl font-bold  mb-10 text-[#392467] dark:text-[#FFD1E3] ">
+      <p className="  lg:text-6xl text-4xl font-bold  mb-10 text-gray-800  ">
         About Me!
       </p>
       {/* <div className="flex flex-col md:flex-row bg-blue-400 gap-x-14 flex-col-on-small">
@@ -33,8 +33,8 @@ const About = () => {
           <img src={myImg} alt="" className="" />
         </div>
         <div className="w-full md:w-1/2">
-          <p className="text-justify dark:text-white">
-            <span className="text-[#5D3587] dark:text-[#A367B1] font-bold text-2xl">
+          <p className="text-justify ">
+            <span className="text-[#5D3587]  font-bold text-2xl">
               Greetings,
             </span>{" "}
             <br />
@@ -59,7 +59,7 @@ const About = () => {
 
       <div className="w-full h-full  rounded-lg mt-20">
         <div>
-          <p className="  w-full lg:text-6xl text-4xl font-bold mb-5  text-[#392467] dark:text-[#FFD1E3]">
+          <p className="  w-full lg:text-6xl text-4xl font-bold mb-5  text-gray-800 ">
             Web Dev Skills!
           </p>
           <div className="lg:flex gap-10">
@@ -76,7 +76,7 @@ const About = () => {
           </div>
         </div>
         <div className="mt-10">
-          <p className="  w-full lg:text-6xl text-4xl font-bold  mb-5 text-[#392467] dark:text-[#FFD1E3]">
+          <p className="  w-full lg:text-6xl text-4xl font-bold  mb-5 text-gray-800 ">
             Programming Skills!
           </p>
 
@@ -87,7 +87,7 @@ const About = () => {
           </div>
         </div>
         <div className="mt-10">
-          <p className="  w-full lg:text-6xl text-4xl font-bold  mb-5 text-[#392467] dark:text-[#FFD1E3]">
+          <p className="  w-full lg:text-6xl text-4xl font-bold  mb-5 text-gray-800 ">
             Other Skills!
           </p>
 

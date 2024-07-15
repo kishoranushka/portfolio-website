@@ -2,38 +2,29 @@ import { Link } from "react-router-dom";
 // import homeimg from "../assets/pinkBg.png";
 import girl from "../assets/myimgHome.png";
 
+
 const Home = () => {
   return (
-    <div className="max-w-screen-xl md:mx-auto flex-col  justify-between">
-      <div className="flex flex-col md:flex-row w-full items-center justify-between">
-        <div className="w-full md:w-1/2 md:px-0 px-2  flex flex-col justify-center items-center order-3 md:order-1 ">
-          <h1 className=" text-4xl text-[#392467] md:text-9xl mt-5 md:mt-0 font-bold dark:text-[#FFD1E3]">
-            Hello, I'm <span className="">Anushka</span>{" "}
-          </h1>
-          <div className=" w-full md:flex">
-            <div className=" w-full  md:w-56 flex  my-2 justify-start md:mt-20 mt-5">
-              <a
-                href="https://drive.google.com/file/d/1uq8TmZ69uCkrbYfkN6GrNDlU5wxlDqf5/view?usp=sharing"
-                className=" p-2 rounded-md font-semibold bg-[#5D3587] dark:bg-[#FFD1E3] dark:text-[#5D3587] dark:hover:bg-white hover:bg-[#392467]  w-full text-center text-white "
-              >
-                Resume{" "}
-              </a>
-            </div>
-            <div className=" w-full  md:w-56 flex  my-2 justify-start md:mt-20 ">
-              <Link
-                to="/about"
-                className=" p-2 rounded-md font-semibold hover:text-blue-800 text-blue-500  w-full text-center "
-              >
-                Know more about me...{" "}
-              </Link>
-            </div>
-          </div>
+    <>
+      <div className=" font">
+        <div className="h-full w-full animate-pulse duration-1 my-20 font-bold text-gray-100 text-[1300%] ">
+          <p>SOFTWARE </p>
+          <p>ENGINEER</p>
         </div>
-        <div className="w-full  md:w-1/3 order-2">
-          <img src={girl} className="w-full" />
+        <div className="font-bold animate-bounce  text-gray-800 text-9xl absolute   top-72 left-[35%]">
+          <p>
+            He<span className="text-[#f8d203]">ll</span>o
+          </p>
+          <p>I am </p>
+          <p>
+            <span className="text-[#f8d203]">Anu</span>sh<span className="k">k</span>a
+          </p>
         </div>
       </div>
-    </div>
+      <div className="design1 w-28 h-28 rounded-full absolute bottom-56 right-0"></div>
+      <div className="design2 w-56 h-56 rounded-full  absolute top-72 right-[-4%]"></div>
+      <div className="design3 w-48 h-48 rounded-full  absolute bottom-10 right-20"></div>
+    </>
   );
 };
 

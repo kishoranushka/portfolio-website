@@ -28,11 +28,11 @@ export default () => {
   }, []);
 
   return (
-    <nav className="max-w-screen-xl md:mx-auto mx-3 flex-col  justify-between mt-3">
+    <nav className="w-full flex-col  justify-between mt-3">
       <div className="gap-x-14 items-center   w-full h-full  md:flex ">
         <div className="flex items-center   justify-between  md:block">
           <Link to="/">
-            <p className="lg:text-3xl xs: font-bold text-[#392467] dark:text-[#FFD1E3]">
+            <p className="lg:text-3xl xs: font-bold text-gray-800      ">
               Anushka Kishor
             </p>
           </Link>
@@ -80,7 +80,7 @@ export default () => {
               return (
                 <li
                   key={idx}
-                  className=" xl:text-lg   text-sm text-[#392467] hover:text-[#A367B1] dark:text-[#FFD1E3] dark:hover:text-white"
+                  className=" xl:text-lg   text-sm text-gray-800 hover:text-gray-600  "
                 >
                   <Link to={item.path} className="block">
                     {item.title}
@@ -98,7 +98,7 @@ export default () => {
               </div>
             </div>
             <div className="xl:w-7 bg xl:h-7 w-5 h-5 ">
-              <div className="w-full  h-full dark:bg-white">
+              <div className="w-full  h-full ">
                 <Link to="https://github.com/kishoranushka/">
                   <GithubIcon />
                 </Link>
