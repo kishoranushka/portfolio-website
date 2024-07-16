@@ -16,7 +16,7 @@ import {
 
 const About = () => {
   return (
-    <div className="max-w-screen-xl md:mx-auto mx-3    mt-16 ">
+    <div className="max-w-screen-xl md:mx-auto mx-3  font  mt-16 ">
       <p className="  lg:text-6xl text-4xl font-bold  mb-10 text-gray-800  ">
         About Me!
       </p>

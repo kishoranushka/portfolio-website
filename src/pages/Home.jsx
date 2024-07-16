@@ -2,22 +2,24 @@ import { Link } from "react-router-dom";
 // import homeimg from "../assets/pinkBg.png";
 import girl from "../assets/myimgHome.png";
 
-
 const Home = () => {
   return (
     <>
       <div className=" font ">
-        <div className="h-full w-full animate-pulse duration-1 my-20 font-bold text-gray-100 text-7xl md:text-[1000%] lg:text-[1300%] ">
+        <div className="h-full w-full animate-pulse  my-20 font-bold text-gray-100 text-7xl md:text-[1000%] lg:text-[1300%] ">
           <p>SOFTWARE </p>
           <p>ENGINEER</p>
         </div>
-        <div className="font-bold animate-bounce  text-gray-800 text-6xl md:text-8xl lg:text-9xl absolute top-40 left-[20%]  md:top-72 md:left-[35%]">
+        <div className="font-bold animate-bounce  text-gray-800 text-6xl md:text-8xl lg:text-9xl absolute top-40 left-[20%]  md:top-72 md:left-[35%] ${state?'top-72':'top-0'}">
           <p>
             He<span className="text-[#f8d203]">ll</span>o
           </p>
           <p>I am </p>
           <p>
-            <span className="text-[#f8d203]">Anu</span>sh
+            <span className="text-[#f8d203]">
+              <span className="k">A</span>nu
+            </span>
+            sh
             <span className="k">k</span>a
           </p>
         </div>

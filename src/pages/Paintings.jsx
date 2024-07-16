@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
 const Paintings = () => {
   // customjs()
   return (
-    <div className="  max-w-screen-xl md:mx-auto mx-3 mt-16  ">
+    <div className="  max-w-screen-xl md:mx-auto mx-3 mt-16 font ">
       <div className="">
         <h1 className="md:text-6xl text-4xl mb-10 font-bold text-gray-800 ">
           Paintings!
