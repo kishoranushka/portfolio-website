@@ -28,7 +28,7 @@ export default () => {
   }, []);
 
   return (
-    <nav className="w-full flex-col font justify-between mt-3">
+    <nav className="w-full flex-col font justify-between mt-3  px-3 md:px-0">
       <div className="gap-x-14 items-center   w-full h-full  md:flex ">
         <div className="flex items-center   justify-between  md:block">
           <Link to="/">
