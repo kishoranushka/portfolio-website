@@ -11,9 +11,9 @@ import CloneCard from "../components/CloneCard";
 const Projects = () => {
   return (
     <>
-      <div className=" max-w-screen-xl md:mx-auto  mx-3 mt-16        ">
+      <div className=" max-w-screen-xl md:mx-auto font mx-3 mt-10 md:mt-16        ">
         <div className=" w-full">
-          <h1 className="lg:text-6xl text-center font  lg:text-left text-4xl mb-10 font-bold text-gray-800">
+          <h1 className="lg:text-6xl text-center   lg:text-left text-4xl mb-10 font-bold text-gray-800">
             Projects!
           </h1>
           {ProjectsData.map((ele, idx) => (
@@ -22,7 +22,7 @@ const Projects = () => {
         </div>
 
         <div>
-          <h1 className="lg:text-6xl text-center lg:text-left text-4xl mb-10 font-bold  text-gray-800 font">
+          <h1 className="lg:text-6xl text-center lg:text-left text-4xl mb-10 font-bold  text-gray-800 ">
             Clone!
           </h1>
           <div className="lg:flex   justify-between">
@@ -69,7 +69,7 @@ const CloneCardData = [
   {
     title: "PrepInstaPrime Web Clone",
     link: "https://kishoranushka.github.io/prepinsta-clone/",
-    desc: "Created and deployed the clone of PrepInstaPrime home page made using HTML and Tailwind CSS and Javascript.",
+    desc: "Created and deployed the clone of PrepInstaPrime home page made using HTML, Tailwind CSS and Javascript.",
     btnText: "Visit",
     category: "Web Development",
     image: prep,

@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
 const Paintings = () => {
   // customjs()
   return (
-    <div className="  max-w-screen-xl md:mx-auto mx-3 mt-16 font ">
+    <div className="  max-w-screen-xl md:mx-auto mx-3 mt-10 md:mt-16 font ">
       <div className="">
         <h1 className="md:text-6xl text-4xl mb-10 font-bold text-gray-800 ">
           Paintings!
@@ -41,9 +41,7 @@ const Paintings = () => {
 
         <div className=" flex justify-center mt-20   ">
           <button className="btn  bg-gray-800 mb-20   p-3 md:px-32 px:10 rounded-md text-white hover:bg-[#392467] font-bold">
-            <a href="https://www.instagram.com/art__insight__9">
-              See More...
-            </a>
+            <a href="https://www.instagram.com/art__insight__9">See More...</a>
           </button>
         </div>
       </div>

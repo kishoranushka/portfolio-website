@@ -16,10 +16,10 @@ import {
 
 const About = () => {
   return (
-    <div className="max-w-screen-xl md:mx-auto mx-3  font  mt-16 ">
-      <p className="  lg:text-6xl text-4xl font-bold  mb-10 text-gray-800  ">
+    <div className="max-w-screen-xl md:mx-auto mx-3  font  mt-10 md:mt-16 ">
+      <h1 className=" text-center md:text-left lg:text-6xl text-4xl font-bold  mb-10 text-gray-800  ">
         About Me!
-      </p>
+      </h1>
       {/* <div className="flex flex-col md:flex-row bg-blue-400 gap-x-14 flex-col-on-small">
         <img src={myImg} alt="" className="w-full h-auto md:w-1/2" />
         <p className="text-xl text-justify mt-6 md:mt-0 md:w-1/2">
@@ -57,12 +57,15 @@ const About = () => {
         </div>
       </div>
 
-      <div className="w-full h-full  rounded-lg mt-20">
-        <div>
-          <p className="  w-full lg:text-6xl text-4xl font-bold mb-5  text-gray-800 ">
+      <div className="w-full h-full  rounded-lg mt-20 ">
+        <h1 className=" text-center md:text-left  lg:text-6xl text-4xl font-bold   text-gray-800  ">
+          Skills!
+        </h1>
+        <div className="mt-10">
+          <p className="  w-full md:text-3xl  text-2xl  font-bold  text-gray-800  ">
             Web Dev Skills!
           </p>
-          <div className="lg:flex gap-10">
+          <div className="md:flex gap-10">
             <div className="flex lg:mt-12  gap-10 justify-between">
               {webskilldatarow1.map((ele, idx) => (
                 <SkillsCard key={idx} data={ele} />
@@ -76,7 +79,7 @@ const About = () => {
           </div>
         </div>
         <div className="mt-10">
-          <p className="  w-full lg:text-6xl text-4xl font-bold  mb-5 text-gray-800 ">
+          <p className="  w-full md:text-3xl  text-2xl  font-bold   text-gray-800 ">
             Programming Skills!
           </p>
 
@@ -86,8 +89,8 @@ const About = () => {
             ))}
           </div>
         </div>
-        <div className="mt-10">
-          <p className="  w-full lg:text-6xl text-4xl font-bold  mb-5 text-gray-800 ">
+        <div className="my-20 ">
+          <p className="  w-full md:text-3xl  text-2xl  font-bold   text-gray-800 ">
             Other Skills!
           </p>
 

@@ -16,7 +16,7 @@ import exhibitionimg from "../assets/CAexhibition.jpg";
 const Achievements = () => {
   return (
     <>
-      <div className="mt-16   max-w-screen-xl md:mx-auto mx-3">
+      <div className="mt-10 md:mt-16   max-w-screen-xl md:mx-auto mx-3">
         <div className="photos   ">
           <h1 className="lg:text-6xl text-center font md:text-left text-4xl md:mb-10 mb-5  font-bold text-gray-800 ">
             Academic Achievements!
@@ -38,7 +38,7 @@ const Achievements = () => {
           <h1 className="lg:text-6xl text-center md:text-left text-4xl mb-10 font font-bold text-gray-800 ">
             Creative Achievements!
           </h1>
-          <div className="md:flex  justify-around ">
+          <div className="md:flex mb-20 justify-around ">
             {creativeAchievement.map((ele, idx) => (
               <AcademicAchievements key={idx} data={ele} />
             ))}

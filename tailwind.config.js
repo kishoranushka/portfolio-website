@@ -36,12 +36,21 @@ export default {
           fontWeight: "700",
         },
       ],
-      "xl": [
+      
+      "3xl": [
+        "2rem",
+        {
+          lineHeight: "2rem",
+          letterSpacing: "0.01em",
+          fontWeight: "500",
+        },
+      ],
+      "2xl": [
         "1rem",
         {
           lineHeight: "2rem",
           letterSpacing: "0.01em",
-          fontWeight: "600",
+          fontWeight: "200",
         },
       ],
     },

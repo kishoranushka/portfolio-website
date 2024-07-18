@@ -12,7 +12,7 @@ const ProjectCard = ({ data }) => {
           <h2 className="text-2xl font-bold mb-2">{data.title}</h2>
           <p className="mb-4">{data.desc}</p>
           <div className="card-actions justify-end ">
-            <button className="btn  bg-[#5D3587]  p-3 px-8 rounded text-white hover:bg-[#392467] font-bold">
+            <button className="btn  bg-[#5894bb]  p-3 px-8 rounded text-white hover:bg-[#528aaf] font-bold">
               <Link to={data.link}> {data.btnText}</Link>
             </button>
           </div>
