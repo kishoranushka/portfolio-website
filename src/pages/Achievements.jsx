@@ -16,13 +16,13 @@ import exhibitionimg from "../assets/CAexhibition.jpg";
 const Achievements = () => {
   return (
     <>
-      <div className="mt-10 md:mt-16   w-full max-w-screen-xl md:mx-auto mx-3">
+      <div className="mt-10 md:mt-16    max-w-screen-xl  mx-3">
         <div className="photos   ">
           <h1 className="lg:text-5xl md:text-4xl text-center font xl:text-left text-3xl md:mb-10 mb-5  font-bold text-gray-800 ">
             Academic Achievements!
           </h1>
 
-          <div className="md:flex  mb-20 justify-between  w-full">
+          <div className="md:flex  w-full mb-20 justify-between  ">
             {AchievementDatarow1.map((ele, idx) => (
               <AcademicAchievements key={idx} data={ele} />
             ))}

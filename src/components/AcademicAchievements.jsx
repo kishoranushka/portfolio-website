@@ -3,8 +3,8 @@ import React from 'react'
 
 const AcademicAchievements = ({data}) => {
   return (
-    <div className='w-full  flex justify-center  '>
-    <div className="thumbnails w-[350px] h-[350px] sm:w-[350px] sm:h-[350px]  md:w-[170px] md:h-[180px] lg:w-[230px] lg:h-[230px] xl:w-[300px] xl:h-[300px] rounded-lg  ">
+    <div className='  flex justify-center  '>
+    <div className="thumbnails w-[280px] h-[300px] sm:w-[350px] sm:h-[350px]  md:w-[170px] md:h-[180px] lg:w-[230px] lg:h-[230px] xl:w-[290px] xl:h-[290px] rounded-lg  ">
       <img
         src={data.image}
         alt={data.alt}
