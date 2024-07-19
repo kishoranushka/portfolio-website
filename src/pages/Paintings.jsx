@@ -14,12 +14,12 @@ import { Link } from 'react-router-dom';
 const Paintings = () => {
   // customjs()
   return (
-    <div className="  max-w-screen-xl md:mx-auto mx-3 mt-10 md:mt-16 font ">
+    <div className="  max-w-screen-xl  w-full  md:mx-auto mx-3 mt-10 md:mt-16 font ">
       <div className="">
-        <h1 className="md:text-6xl text-4xl mb-10 font-bold text-gray-800 ">
+        <h1 className="lg:text-5xl  md:text-4xl xl:text-left text-center text-3xl mb-10 font-bold text-gray-800 ">
           Paintings!
         </h1>
-        <div className="md:flex  gap-10 justify-between">
+        <div className="md:flex   gap-10 justify-between">
           {paintingdatarow1.map((ele, idx) => (
             <PaintingCard key={idx} data={ele} />
           ))}
@@ -29,7 +29,7 @@ const Paintings = () => {
             <PaintingCard key={idx} data={ele} />
           ))}
         </div>
-        <h1 className="md:text-6xl text-4xl mb-10 font-bold text-gray-800 ">
+        <h1 className="lg:text-5xl md:text-4xl text-center xl:text-left text-3xl mb-10 font-bold text-gray-800 ">
           Wall Paintings!
         </h1>
 

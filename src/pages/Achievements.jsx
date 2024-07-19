@@ -16,18 +16,18 @@ import exhibitionimg from "../assets/CAexhibition.jpg";
 const Achievements = () => {
   return (
     <>
-      <div className="mt-10 md:mt-16   max-w-screen-xl md:mx-auto mx-3">
+      <div className="mt-10 md:mt-16   w-full max-w-screen-xl md:mx-auto mx-3">
         <div className="photos   ">
-          <h1 className="lg:text-6xl text-center font md:text-left text-4xl md:mb-10 mb-5  font-bold text-gray-800 ">
+          <h1 className="lg:text-5xl md:text-4xl text-center font xl:text-left text-3xl md:mb-10 mb-5  font-bold text-gray-800 ">
             Academic Achievements!
           </h1>
 
-          <div className="md:flex  mb-20 justify-around  w-full">
+          <div className="md:flex  mb-20 justify-between  w-full">
             {AchievementDatarow1.map((ele, idx) => (
               <AcademicAchievements key={idx} data={ele} />
             ))}
           </div>
-          <h1 className="lg:text-6xl text-4xl text-center md:text-left mb-10 font font-bold text-gray-800 ">
+          <h1 className="lg:text-5xl text-3xl md:text-4xl text-center xl:text-left mb-10 font font-bold text-gray-800 ">
             Non-Academic Achievements!
           </h1>
           <div className="md:flex mb-20 justify-around ">
@@ -35,7 +35,7 @@ const Achievements = () => {
               <AcademicAchievements key={idx} data={ele} />
             ))}
           </div>
-          <h1 className="lg:text-6xl text-center md:text-left text-4xl mb-10 font font-bold text-gray-800 ">
+          <h1 className="lg:text-5xl text-center md:text-4xl xl:text-left text-3xl mb-10 font font-bold text-gray-800 ">
             Creative Achievements!
           </h1>
           <div className="md:flex mb-20 justify-around ">

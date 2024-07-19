@@ -3,7 +3,8 @@ import React from 'react'
 
 const AcademicAchievements = ({data}) => {
   return (
-    <div className="thumbnails lg:w-[300px] md:h-[300px] rounded-lg  h-[350px]">
+    <div className='w-full  flex justify-center  '>
+    <div className="thumbnails w-[350px] h-[350px] sm:w-[350px] sm:h-[350px]  md:w-[170px] md:h-[180px] lg:w-[230px] lg:h-[230px] xl:w-[300px] xl:h-[300px] rounded-lg  ">
       <img
         src={data.image}
         alt={data.alt}
@@ -11,6 +12,7 @@ const AcademicAchievements = ({data}) => {
       />
       <div className="blackbox "></div>
       <div className="title font-bold lg:font-semibold text-xl text-center">{data.title}</div>
+    </div>
     </div>
   );
 }

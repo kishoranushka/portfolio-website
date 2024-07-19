@@ -12,11 +12,11 @@ const Home = () => {
     <>
       <div className=" font relative my-10 md:my-40 h-full  ">
         <div className="relative  ">
-          <div className="h-full w-full text-5xl  md:text-12xl  px-3 md:px-0 font-bold text-gray-100   ">
+          <div className="h-full w-full text-5xl sm:text-7xl md:text-9xl lg:text-11xl xl:text-12xl   px-3 md:px-0 font-bold text-gray-100   ">
             <p>SOFTWARE </p>
             <p>ENGINEER</p>
           </div>
-          <div className="font-bold text-4xl md:text-10xl text-gray-800  top-0  absolute  left-[25%]  md:top-[10%] md:left-[30%] ${state?'top-72':'top-0'}">
+          <div className="font-bold text-4xl sm:text-5xl md:text-6xl lg:text-9xl xl:text-10xl text-gray-800  top-0  absolute  left-[25%] sm:left-[30%] md:top-[-10%] lg:top-5 xl:top-12 lg:left-[30%] ">
             <p>
               He<span className="text-[#f8d203]">ll</span>o
               <span className="text-[#f8d203]">,</span>
@@ -32,11 +32,11 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="design1 md:w-20 md:h-20  lg:w-28 lg:h-28 rounded-full hidden md:block absolute   bottom-56 right-0"></div>
-      <div className="design2 md:w-40 md:h-40 xl:w-56 xl:h-56 rounded-full hidden md:block absolute md:top-32 md:right-0 xl:top-72 xl:right-0 overflow-hidden"></div>
-      <div className="design3 md:w-36 md:h-36 xl:w-48 xl:h-48 rounded-full hidden md:block absolute md:bottom-20 lg:bottom-10 right-20"></div>
+      <div className="design1 md:w-20 md:h-20   xl:w-28 xl:h-28  rounded-full hidden md:block absolute  md:bottom-96 lg:bottom-56 xl:bottom-40 2xl:bottom-72 right-0"></div>
+      <div className="design2 md:w-32 md:h-40 xl:h-44 xl:w-44 2xl:w-52 2xl:h-52 rounded-full hidden md:block absolute md:top-24 md:right-0 xl:top-32 xl:right-0 "></div>
+      <div className="design3 md:w-36 md:h-36 xl:w-40 xl:h-40 2xl:w-44 2xl:h-44 rounded-full hidden md:block absolute md:bottom-20 md:left-[-8%] lg:bottom-0 2xl:right-0 "></div>
 
-      <div className="mb-10 mt-20 relative  md:flex">
+      <div className="mb-10 mt-20 relative  sm:flex">
         <div className="md:flex w-full md:w-1/2  text-center flex flex-col rounded-md  gap-10 justify-between   text-xl  p-4">
           {HomecardLeft.map((ele, idx) => (
             <HomeCard key={idx} data={ele} />
@@ -78,7 +78,7 @@ const HomecardRight = [
   },
 
   {
-    text: "Get yourself immerse into my creativity!",
+    text: "Explore my creativity!",
     img: v4,
     link: "/paintings",
   },

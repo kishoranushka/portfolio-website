@@ -17,7 +17,7 @@ import {
 const About = () => {
   return (
     <div className="max-w-screen-xl md:mx-auto mx-3  font  mt-10 md:mt-16 ">
-      <h1 className=" text-center md:text-left lg:text-6xl text-4xl font-bold  mb-10 text-gray-800  ">
+      <h1 className=" text-center xl:text-left lg:text-5xl md:text-4xl text-3xl font-bold  mb-10 text-gray-800  ">
         About Me!
       </h1>
       {/* <div className="flex flex-col md:flex-row bg-blue-400 gap-x-14 flex-col-on-small">
@@ -58,14 +58,14 @@ const About = () => {
       </div>
 
       <div className="w-full h-full  rounded-lg mt-20 ">
-        <h1 className=" text-center md:text-left  lg:text-6xl text-4xl font-bold   text-gray-800  ">
+        <h1 className=" text-center xl:text-left  lg:text-5xl md:text-4xl text-3xl font-bold   text-gray-800  ">
           Skills!
         </h1>
         <div className="mt-10">
           <p className="  w-full md:text-3xl  text-2xl  font-bold  text-gray-800  ">
             Web Dev Skills!
           </p>
-          <div className="md:flex gap-10">
+          <div className="sm:flex gap-10">
             <div className="flex lg:mt-12  gap-10 justify-between">
               {webskilldatarow1.map((ele, idx) => (
                 <SkillsCard key={idx} data={ele} />

@@ -13,7 +13,7 @@ const Projects = () => {
     <>
       <div className=" max-w-screen-xl md:mx-auto font mx-3 mt-10 md:mt-16        ">
         <div className=" w-full">
-          <h1 className="lg:text-6xl text-center   lg:text-left text-4xl mb-10 font-bold text-gray-800">
+          <h1 className="lg:text-5xl text-center md:text-4xl  xl:text-left text-3xl mb-10 font-bold text-gray-800">
             Projects!
           </h1>
           {ProjectsData.map((ele, idx) => (
@@ -22,10 +22,10 @@ const Projects = () => {
         </div>
 
         <div>
-          <h1 className="lg:text-6xl text-center lg:text-left text-4xl mb-10 font-bold  text-gray-800 ">
+          <h1 className="lg:text-5xl text-center xl:text-left md:text-4xl text-3xl mb-10 font-bold  text-gray-800 ">
             Clone!
           </h1>
-          <div className="lg:flex   justify-between">
+          <div className="md:flex   justify-between">
             {CloneCardData.map((ele, idx) => (
               <CloneCard key={idx} data={ele} />
             ))}
