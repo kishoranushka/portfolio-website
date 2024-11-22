@@ -44,9 +44,9 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="w-full h-full shadow-lg p-10">
-      <div className="mx-72 p-6">
-        <h2 className="lg:text-5xl md:text-4xl text-center font xl:text-left text-3xl md:mb-10 mb-5 font-bold text-gray-800">
+    <div className="w-full   my-20 rounded-md xl:shadow-lg p-4 py-16 flex  justify-center">
+      <div className="w-full max-w-3xl p-6 bg-white  rounded-lg">
+        <h2 className="text-3xl sm:text-4xl text-center font-bold text-gray-800 mb-6">
           Contact Me!
         </h2>
         <form onSubmit={handleSubmit} className="space-y-4">
@@ -69,7 +69,7 @@ const ContactForm = () => {
               value={formData.user_email}
               onChange={handleChange}
               required
-              className="w-full px-4 py-2 mt-2 border rounded-lg focus:ring-[#f8d203] focus:outline-none focus:ring-2 "
+              className="w-full px-4 py-2 mt-2 border rounded-lg focus:ring-[#f8d203] focus:outline-none focus:ring-2"
             />
           </div>
           <div>
@@ -90,7 +90,9 @@ const ContactForm = () => {
           </button>
         </form>
         {submissionStatus && (
-          <p className="mt-4 text-center  font-semibold">{submissionStatus}</p>
+          <p className="mt-4 text-center text-green-600 font-semibold">
+            {submissionStatus}
+          </p>
         )}
       </div>
     </div>
