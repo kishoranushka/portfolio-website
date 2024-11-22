@@ -30,10 +30,10 @@ const ContactForm = () => {
         "xBAw19m9QvdpXnVGO" // Replace with your EmailJS User ID
       )
       .then(() => {
-        setSubmissionStatus("Thank you for contacting us!");
+        setSubmissionStatus("Thank you for contacting!");
         setFormData({
-          name: "",
-          email: "",
+          user_name: "",
+          user_email: "",
           message: "",
         });
       })
@@ -84,7 +84,7 @@ const ContactForm = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-[#f8d203] shadow-lg border font-bold text-white py-2 px-4 rounded-lg hover:bg-[#f7db3c] focus:outline-none focus:ring-2"
+            className="w-full bg-[#f8d203] shadow-lg border font-bold text-white py-2 px-4 rounded-lg hover:bg-[#f7db3c] focus:outline-none focus:ring-2 focus:ring-[#f8d203]"
           >
             Submit
           </button>
