@@ -17,6 +17,7 @@ export default () => {
     { title: "Projects", path: "/projects" },
     { title: "Achievements", path: "/achievements" },
     { title: "Paintings", path: "/paintings" },
+    { title: "Contact", path: "/contact" },
   ];
 
   useEffect(() => {
