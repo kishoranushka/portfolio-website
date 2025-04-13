@@ -1,7 +1,7 @@
 import React from "react";
 import AcademicAchievements from "../components/AcademicAchievements";
 import topperimg from "../assets/AAtopper.jpg";
-import projectimg from "../assets/AAproject.jpg";
+import projectimg from "../assets/AAprojectedit.jpg";
 import leadposter from "../assets/AAleadposter.jpg";
 import awardimg from "../assets/AAaward.jpg";
 import sessionimg1 from "../assets/NAgdsc.jpg";
@@ -12,6 +12,8 @@ import facepaintingimg from "../assets/CAfacepainting.jpg";
 import facepaintingimg2 from "../assets/CAfacepainting2.jpg";
 import Posterimg from "../assets/CApostermaking.jpg";
 import exhibitionimg from "../assets/CAexhibition.jpg";
+import topperimg2 from "../assets/AAtopperimg2.jpg";
+import awardimg2 from "../assets/AAtopperimg.jpg";
 
 const Achievements = () => {
   return (
@@ -22,7 +24,7 @@ const Achievements = () => {
             Academic Achievements!
           </h1>
 
-          <div className="md:flex  w-full mb-20 justify-between  ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10   mb-20 justify-center items-center  ">
             {AchievementDatarow1.map((ele, idx) => (
               <AcademicAchievements key={idx} data={ele} />
             ))}
@@ -30,7 +32,7 @@ const Achievements = () => {
           <h1 className="lg:text-5xl text-3xl md:text-4xl text-center xl:text-left mb-10 font font-bold text-gray-800 ">
             Non-Academic Achievements!
           </h1>
-          <div className="md:flex mb-20 justify-around ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 mb-20 justify-around ">
             {NonAcaAchievement.map((ele, idx) => (
               <AcademicAchievements key={idx} data={ele} />
             ))}
@@ -38,7 +40,7 @@ const Achievements = () => {
           <h1 className="lg:text-5xl text-center md:text-4xl xl:text-left text-3xl mb-10 font font-bold text-gray-800 ">
             Creative Achievements!
           </h1>
-          <div className="md:flex mb-20 justify-around ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 mb-20 justify-around ">
             {creativeAchievement.map((ele, idx) => (
               <AcademicAchievements key={idx} data={ele} />
             ))}
@@ -53,6 +55,21 @@ export default Achievements;
 
 const AchievementDatarow1 = [
   {
+    title: "Topper Award",
+    image: awardimg2,
+    alt: "Award image",
+  },
+  {
+    title: "Branch Topper",
+    image: topperimg2,
+    alt: "project competition winner",
+  },
+  {
+    title: "Topper Award",
+    image: awardimg,
+    alt: "Award image",
+  },
+  {
     title: "Branch Topper",
     image: topperimg,
     alt: "topper image",
@@ -63,11 +80,7 @@ const AchievementDatarow1 = [
     image: leadposter,
     alt: "GDSC lead image",
   },
-  {
-    title: "Topper Award",
-    image: awardimg,
-    alt: "Award image",
-  },
+
   {
     title: "Project Competition ",
     image: projectimg,

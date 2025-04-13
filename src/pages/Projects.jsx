@@ -7,6 +7,7 @@ import prep from "../assets/prepinstaclone.jpg";
 import { Link } from "react-router-dom";
 import ProjectCard from "../components/ProjectCard";
 import CloneCard from "../components/CloneCard";
+import BiharSangam from "../assets/biharsangam.jpg";
 
 const Projects = () => {
   return (
@@ -40,6 +41,14 @@ export default Projects;
 
 const ProjectsData = [
   {
+    title: "Bihar Sangam - Business Expo",
+    category: "App Development",
+    btnText: "Website link",
+    link: "https://bihar-sangam.vercel.app/",
+    desc: "Created a dynamic React Native app for Bihar Sangam, a state-level business fair, enabling users to explore events, stalls, and cultural highlights with ease.",
+    image: BiharSangam,
+  },
+  {
     title: "RoleHunt - A Placement Management System",
     link: "https://rolehunt.vercel.app/",
     desc: "Created and deployed a comprehensive Next.js placement management system. Worked on the user side of the project to enable students easily navigate through the platform.",
@@ -50,7 +59,7 @@ const ProjectsData = [
   {
     title: "Weather Web App",
     link: "https://kishoranushka.github.io/weather-app/",
-    desc: "Created and deployed a comprehensive Next.js placement management system. Worked on the user side of the project to enable students easily navigate through the platform.",
+    desc: "Built and deployed a sleek weather web app using React.js, allowing users to check real-time weather conditions and forecasts for any location.",
     btnText: "Visit",
     category: "Web Development",
     image: weatherimg1,

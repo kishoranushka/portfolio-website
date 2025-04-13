@@ -1,5 +1,5 @@
 import React from "react";
-import myImg from "../assets/aboutimg.png";
+import myImg from "../assets/About-myimg.png";
 import SkillsCard from "../components/SkillsCard";
 import {
   CssLogo,
@@ -28,32 +28,63 @@ const About = () => {
         </p>
       </div> */}
 
-      <div className="flex flex-col  md:flex-row w-full items-center justify-between gap-10">
+      <div className="flex flex-col  md:flex-row w-full items-center justify-between gap-16">
         <div className="w-full md:w-1/2">
           <img src={myImg} alt="" className="" />
         </div>
         <div className="w-full md:w-1/2">
-          <p className="text-justify ">
+          <div className="text-justify  ">
             <span className="text-[#5D3587]  font-bold text-2xl">
               Greetings,
             </span>{" "}
             <br />
-            I'm Anushka Kishor, hailing from the culturally rich state renowned
-            for its culinary delights in "Litti Chokha." Currently, I am
-            fervently pursuing my Bachelor's degree at Sagar Institute of
-            Science and Technology, Bhopal. Proficient in programming languages
-            like HTML, CSS, JavaScript, React.js, and Tailwind CSS, along with C
-            and C++, I also excel in Data Structures and Algorithms. I am
-            honored to serve as the Lead for Google Developer Student Clubs,
-            where I orchestrate initiatives aimed at fostering innovation and
-            collaboration within our academic ecosystem. Beyond the realm of
-            technology, I find solace and self-expression in the realms of art
-            and sport. Acrylic painting serves as my canvas for creative
-            exploration, while the exhilarating game of badminton keeps me
-            grounded and energized. Committed to continuous learning, I'm
-            passionate about leadership and self-improvement. Join me on this
-            journey where every challenge is an opportunity for growth.
-          </p>
+            <p className="text-xl">
+              I'm{" "}
+              <span className="font-medium text-yellow-500 text-xl">
+                Anushka Kishor
+              </span>
+              , a tech enthusiast from the culturally rich state of Bihar. I’m
+              currently in the final year of my Bachelor's degree at Sagar
+              Institute of Science and Technology, Bhopal. With hands-on
+              experience in HTML, CSS, JavaScript, React.js, Tailwind CSS, C,
+              and C++.
+            </p>{" "}
+            <br />{" "}
+            <p className="text-xl">
+              I specialize in building dynamic, user-centric web and mobile
+              applications. My passion for development is reflected in projects
+              like{" "}
+              <span className="text-gray-600 font-medium">Bihar Sangam</span> ,
+              a React Native app created for a state-level business fair, and a
+              Next.js-based placement management system, among others.{" "}
+            </p>
+            <br />{" "}
+            <p>
+              {" "}
+              I recently completed my internship as an{" "}
+              <span className="font-medium text-gray-600">
+                Assistant Software Developer
+              </span>{" "}
+              at The Stack Mentalist, where I contributed to real-world product
+              development and honed my skills in building scalable digital
+              solutions. Previously, I had the honor of serving as the Lead for
+              Google Developer Student Clubs, where I led impactful initiatives
+              to nurture tech talent and foster a culture of collaboration on
+              campus.
+            </p>{" "}
+            <br />{" "}
+            <p className="text-xl">
+              {" "}
+              Outside of tech, I'm deeply passionate about{" "}
+              <span className="font-medium text-gray-600">
+                acrylic painting
+              </span>{" "}
+              and find balance through{" "}
+              <span className="font-medium text-gray-600">badminton</span>.
+              Whether it's through leadership, creativity, or coding, I'm driven
+              by a commitment to growth and purpose in everything I do.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -107,19 +138,18 @@ const About = () => {
 
 const webskilldatarow1 = [
   {
-    image: <HtmlLogo/>,
+    image: <HtmlLogo />,
   },
   {
-    image: <CssLogo/>,
+    image: <CssLogo />,
   },
   {
-    image: <JavascriptLogo/>,
+    image: <JavascriptLogo />,
   },
-  
 ];
 const webskilldatarow2 = [
   {
-    image: <ReactLogo/>,
+    image: <ReactLogo />,
   },
 ];
 
@@ -133,7 +163,6 @@ const progskilldata = [
   {
     image: <PythonLogo />,
   },
-  
 ];
 
 const otherskilldata = [
