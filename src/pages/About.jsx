@@ -45,34 +45,34 @@ const About = () => {
               <span className="font-medium text-yellow-500 text-xl">
                 Anushka Kishor
               </span>
-              , a tech enthusiast from the culturally rich state of Bihar. I’m
-              currently in the final year of my Bachelor's degree at Sagar
-              Institute of Science and Technology, Bhopal. With hands-on
-              experience in HTML, CSS, JavaScript, React.js, Tailwind CSS, C,
-              and C++.
+              , a tech enthusiast from the culturally rich state of Bihar. I
+              hold a Bachelor's degree in Computer Science from Sagar Institute
+              of Science and Technology, Bhopal. With hands-on experience in
+              HTML, CSS, JavaScript, React.js, Tailwind CSS, C, and C++,
             </p>{" "}
             <br />{" "}
             <p className="text-xl">
-              I specialize in building dynamic, user-centric web and mobile
-              applications. My passion for development is reflected in projects
-              like{" "}
-              <span className="text-gray-600 font-medium">Bihar Sangam</span> ,
-              a React Native app created for a state-level business fair, and a
-              Next.js-based placement management system, among others.{" "}
+              Currently, I’m working as a{" "}
+              <span className="font-medium text-gray-600">
+                Programmer Analyst
+              </span>{" "}
+              (Probationer) at Argusoft in Gandhinagar, Gujarat. Alongside my
+              role, I’m expanding my expertise by learning Python, Django,
+              FastAPI, and Data Science, aiming to strengthen my backend
+              development and analytical skills.
             </p>
             <br />{" "}
             <p>
               {" "}
-              I recently completed my internship as an{" "}
-              <span className="font-medium text-gray-600">
-                Assistant Software Developer
-              </span>{" "}
-              at The Stack Mentalist, where I contributed to real-world product
-              development and honed my skills in building scalable digital
-              solutions. Previously, I had the honor of serving as the Lead for
-              Google Developer Student Clubs, where I led impactful initiatives
-              to nurture tech talent and foster a culture of collaboration on
-              campus.
+              My passion for development is reflected in projects like{" "}
+              <span className="font-medium text-gray-600">Bihar Sangam</span> ,
+              a React Native app built for a state-level business fair, and a
+              Next.js-based placement management system, among others.
+              Previously, I completed my internship as an Assistant Software
+              Developer at The Stack Mentalist, where I gained real-world
+              product development experience. I also had the honor of serving as
+              the Lead for Google Developer Student Clubs, leading initiatives
+              to nurture tech talent and foster collaboration on campus.
             </p>{" "}
             <br />{" "}
             <p className="text-xl">
