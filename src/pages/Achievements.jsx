@@ -14,6 +14,7 @@ import Posterimg from "../assets/CApostermaking.jpg";
 import exhibitionimg from "../assets/CAexhibition.jpg";
 import topperimg2 from "../assets/AAtopperimg2.jpg";
 import awardimg2 from "../assets/AAtopperimg.jpg";
+import rattrapimg from "../assets/rattrap.jpg"
 
 const Achievements = () => {
   return (
@@ -42,6 +43,14 @@ const Achievements = () => {
           </h1>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 mb-20 justify-around ">
             {creativeAchievement.map((ele, idx) => (
+              <AcademicAchievements key={idx} data={ele} />
+            ))}
+          </div>
+          <h1 className="lg:text-5xl text-center md:text-4xl xl:text-left text-3xl mb-10 font font-bold text-gray-800 ">
+            Professional Creative Achievements!
+          </h1>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 mb-20 justify-around ">
+            {profCreativeAchievement.map((ele, idx) => (
               <AcademicAchievements key={idx} data={ele} />
             ))}
           </div>
@@ -132,5 +141,13 @@ const creativeAchievement = [
     title: "Painting Exhibition",
     image: exhibitionimg,
     alt: "painitng exhibition img",
+  },
+];
+
+const profCreativeAchievement = [
+  {
+    title: "Rat Trap Car Race (Winner) - Argusoft",
+    image: rattrapimg,
+    alt : "Rat trap winning img",
   },
 ];

@@ -11,6 +11,8 @@ import {
   GitLogo,
   GithubIcon,
   PostmanLogo,
+  DjangoLogo,
+  FastApiLogo
   // CLogo,
 } from "../utils/Icon";
 
@@ -150,6 +152,12 @@ const webskilldatarow1 = [
 const webskilldatarow2 = [
   {
     image: <ReactLogo />,
+  },
+  {
+    image: <DjangoLogo />
+  },
+  {
+    image: <FastApiLogo />
   },
 ];
 
